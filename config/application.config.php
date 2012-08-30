@@ -1,7 +1,10 @@
 <?php
 return array(
     'modules' => array(
-        'Application',
+        'Application'
+        ,'Album'
+        ,'DoctrineModule'
+        ,'DoctrineORMModule'
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(

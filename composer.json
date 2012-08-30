@@ -7,8 +7,13 @@
         "zf2"
     ],
     "homepage": "http://framework.zend.com/",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "dev-master#a59928a3a37e420193939f9799ece27fb39bb84e"
+        "zendframework/zendframework": "dev-master"
+        ,"doctrine/doctrine-orm-module": "dev-master"
+        ,"doctrine/doctrine-module": "dev-master"
+        ,"doctrine/migrations": "dev-master"
+        ,"doctrine/data-fixtures": "dev-master"
     }
 }
