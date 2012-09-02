@@ -15,5 +15,10 @@
         ,"doctrine/doctrine-module": "dev-master"
         ,"doctrine/migrations": "dev-master"
         ,"doctrine/data-fixtures": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Common": "vendor/"
+        }
     }
 }
