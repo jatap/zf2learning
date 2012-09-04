@@ -1,10 +1,10 @@
 <?php
 
-namespace Common\Stdlib\Exception;
+namespace Common\Stdlib\Overloading\Exception;
 
-use Zend\Mvc\Exception\InvalidControllerException;
+use \Exception;
 
-class MethodNotExists extends InvalidControllerException
+class MethodNotExists extends Exception
 {
 	/**
 	 * Exceptions messages

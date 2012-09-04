@@ -1,14 +1,13 @@
 <?php
 
-namespace Common\Stdlib;
+namespace Common\Stdlib\Overloading;
 
-use Common\Stdlib\Exception\MethodNotAllowed;
-use Common\Stdlib\Exception\MethodNotExists;
-use Common\Stdlib\Exception\PropertyNotExists;
+use Common\Stdlib\Overloading\Exception\MethodNotAllowed;
+use Common\Stdlib\Overloading\Exception\MethodNotExists;
+use Common\Stdlib\Overloading\Exception\PropertyNotExists;
 
-class Overloading
+abstract class AbstractOverloading
 {
-
     /**
      * Overloading for valid properties (accesors)
      *
@@ -55,8 +54,6 @@ class Overloading
      * @param   mixed  $value
      *
      * @throws  PropertyNotExists
-     *
-     * @return  Common_Theme_Theme
      */
     public function __set($property, $value)
     {
