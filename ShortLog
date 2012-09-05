@@ -1,4 +1,217 @@
-Julio Antúnez Tarín (15):
+Adolfo Abegg (1):
+      Added spanish translation
+
+Aleksey 'Xerkus' Khudyakov (3):
+      Set doctype as HTML5
+      added glob path for modules dropin configs, added pattern for gitignored local.config.php     so it will always load regardless of env settings.
+      add *.local.php to config/autoload/.gitignore
+
+Artur Bodera (1):
+      Update Skeleton to ZF2 RC1.
+
+Bostjan Oblak (1):
+      conditional include of html5 shim
+
+BostjanOb (1):
+      Bug in var naming.
+
+Danielss89 (1):
+      Moved javascript down, after css. Best practice.
+
+David Hazel (1):
+      Moved the RouteStack di class definition into the module config.
+
+David Lukas (2):
+      Czech translation (cs_CZ)
+      RC compatibility - Zend\Version namespace
+
+Dolf Schimmel (3):
+      Merge pull request #61 from EvanDotPro/hotfix/update-submodule
+      Merge pull request #70 from EvanDotPro/feature/zf2-path-env
+      Merge pull request #73 from akrabat/hotfix/standardautoloader
+
+Dolf Schimmel (Freeaqingme) (2):
+      Opening external links in new tabs/windows
+      Adding .gitignore
+
+Eric (3):
+      Fixed copyright year in footer.
+      Fixed ActionController name.
+      Added german translation.
+
+Erik Landvall (1):
+      Update module/Application/view/error/index.phtml
+
+Evan Coury (145):
+      Initial skeleton in place with ZF2 submodule pointed at current master
+      Small view tweaks, gitignore update, and error phtml path
+      Add .gitignore to ignore user-added modules
+      Update readme with more information, clone instructions, and git submodule info
+      Add newline to README.md for markdown list
+      Update to use new view convenience API
+      More verybose name for module manager options in config and updated URL helper with Matthew's latest
+      Update ZF2 submoudle to latest master
+      Update ZF2 submodule
+      Update for new Zend\Di and Zend\Code stuff
+      Update zf2 submoudle and Di configuration
+      More verbose import alias
+      Update ZF2 submodule
+      Updated zf2 submodule and module manager option key
+      Module class getConfig() method does not need to be static
+      Remove unnecessary class imports
+      Update ZF2 submodule
+      Updated ZF2 submodule
+      Update ZF2 submodule to release-2.0.0beta1 tag
+      Various clean up
+      Updated ZF2 submodule and changed to segment route
+      Updated for ZF changeges
+      Update classmap
+      Remove $env parameter from initAutoloader method
+      Add vendors/ directory for third-party modules
+      Update ZF2 submodule
+      Updated for new event-driven module manager
+      Updated ZF2 submodule to latest master, show exceptions on 404 error
+      Pass exception on render404() method of view listener
+      Updated ZF2 submodule to point to GitHub as new canonical repo
+      Remove unused bootstrap_class config value from Application module
+      Convert to singular path names and move ZF2 submodule
+      s/configs/config in Application module
+      Fix .gitignore so ZF2 submodule works. Fixes issue #6
+      Remove gitignore files
+      Remove references to application environment.
+      Routine update of ZF2 submodule
+      Update for new module event stuff and update zf2 submodule
+      Organize lines in index.php a bit better
+      Merge remote-tracking branch 'guilhermeblanco/patch-1'
+      Merge remote-tracking branch 'mhujer/error-page-impromevent'
+      Check for ZF2_PATH env var when including ZF2 AutoloaderFactory
+      Update view listener to pass vars to layout
+      Update ZF2 submodule to 9ae9a188
+      Aethetic improvements and marketing jargon
+      Update ZF2 submodule to release-2.0.0beta2
+      Merge remote-tracking branch 'BostjanOb/patch-1' into bostjan-patch
+      s/location/locator, and update $di variable in Application's Module.php
+      Update ZF2 submodule
+      Use getBaseUrl() instead of detectBaseUrl()
+      Merge pull request #18 from Xerkus/master
+      Merge pull request #21 from akrabat/plugin-broker
+      Merge remote-tracking branch 'akrabat/feature/layout-consolidation'
+      Update ZF2 submodule
+      Merge pull request #25 from troymccabe/master
+      Merge pull request #27 from steffendietz/master
+      Update layout to use Twitter Bootstrap 2.0.0
+      Update zf2 submodule
+      Merge branch 'feature/twitter-bootstrap-2'
+      Merge remote-tracking branch 'ocramius/mvc-router-from-locator'
+      Update button styles and switched to "ZF green"
+      Fix hover css colors for buttons
+      Merge pull request #30 from RWOverdijk/hotfix/ZF2-166
+      Merge remote-tracking branch 'weierophinney/feature/view-layer'
+      Update ZF2 submodule to canonical repo
+      Add viewport meta tag for smart phone scaling
+      Merge remote-tracking branch 'weierophinney/feature/view-layer'
+      Remove usage of raw() view helper in layout
+      Remove date('Y') call in layout
+      Update ZF2 submodule to latest master
+      Merge remote-tracking branch 'ocramius/better-exception-information'
+      Update zf2 submodule for beta3
+      Merge pull request #37 from gabriel403/master
+      Merge pull request #39 from gabriel403/master
+      Add viewport meta tag for smart phone scaling
+      Merge remote-tracking branch 'ocramius/move-view-helpers-setup-to-module-config'
+      Merge remote-tracking branch 'Xerkus/hotfix/glob-path'
+      Reverting to config globbing practice decided in meeting
+      Add optional config filename prefix
+      Update glob() for autoload config files
+      Merge pull request #48 from Freeaqingme/externalLinks
+      Merge pull request #47 from Freeaqingme/gitignore
+      Merge remote-tracking branch 'weierophinney/hotfix/event-manager-shared'
+      Updates for ZF2 master changes
+      Update ZF2 submodule
+      Update ZF2 submodule to latest master
+      Merge remote-tracking branch 'weierophinney/feature/mvc-servicemanager-refactor'
+      Point ZF2 submodule path back to canonical.
+      Merge remote-tracking branch 'weierophinney/feature/view-script-resoultion'
+      Update ZF2 submodule
+      Add config glob pattern to application.config.php
+      Merge remote-tracking branch 'akrabat/hotfix/default-route'
+      Update zf2 submodule
+      Merge pull request #63 from SpiffyJr/feature/remove-autoload-files
+      Merge pull request #57 from Xerkus/master
+      Remove *local.config.php from gitignore
+      Update composer.json ZF2 reference to beta4 commit
+      Remove and gitignore composer.lock file
+      Update composer.json with latest ZF2 commit for array notice fix
+      Remove composer.lock from .gitignore
+      Update readme to not include classmap autoloader registration.
+      Merge pull request #65 from Ocramius/hotfix/index-stat-call
+      Update composer commit pointer for zf2
+      Merge pull request #69 from janpieper/patch-1
+      Add conditional check for allowing ZF2_PATH env variable to be used
+      Update index.php and Application\Module to make composer use optional
+      Remove Application namespace psr0 autoloader from composer.json
+      Merge pull request #72 from akrabat/hotfix/404-html
+      Merge pull request #74 from ZeinEddin/master
+      Merge pull request #75 from coss/fix/copyright-year
+      Merge pull request #77 from SpiffyJr/pr/update-zf2
+      Update ZF2 commit
+      Update ZF2 commit for BC break
+      Clean up index.php significantly
+      Clean up layout and configs
+      Update ZF2 commit
+      Add jquery to layout by default
+      Update ZF2 commit
+      Initial translation setup
+      Build mo for de_DE
+      Merge remote-tracking branch 'b-durand/feature/i18n' into feature/i18n
+      Translate text in layout
+      Update en_US fr_FR for new keys
+      Add missing echo to translation in layout
+      Add missing %s in fr_FR translation
+      Add missing de_DE keys
+      Small typo fixes
+      Typos in de_DE translation
+      Small typo in de_DE
+      Merge remote-tracking branch 'HHGAG/feature/i18n' into feature/i18n
+      Merge remote-tracking branch 'sasezaki/feature/i18n' into feature/i18n
+      Merge remote-tracking branch 'dlu-gs/feature/i18n-cs_CZ' into feature/i18n
+      Merge remote-tracking branch 'adolfoabegg/feature/i18n' into feature/i18n
+      Merge remote-tracking branch 'tawfekov/master' into feature/i18n
+      Merge branch 'feature/i18n'
+      Update ZF2 commit to beta5 tag
+      Merge pull request #88 from Ocramius/feature/i18n-it_IT
+      Merge pull request #89 from Maks3w/zen-14
+      Merge pull request #90 from diemuzi/patch-1
+      Update ZF2 commit
+      Merge pull request #91 from sasezaki/translate_ja
+      Update ZF2 commit
+      Merge pull request #94 from WalterTamboer/feature/dutch-translation
+      Merge remote-tracking branch 'Thinkscape/master'
+      Update composer.json for ZF2 RC1
+
+Gabriel Baker (5):
+      removed error controller bits
+      Introduced the environment check for application_env     and changed the glob line for config files
+      Update public/index.php
+      Fixed messed up glob config line
+      Changed the env variable to match the files in config/autoload/ and to facilitate local changes pulled in by index.php glob config
+
+Gerard Roche (1):
+      Add composer.lock file to ignore list
+
+Guilherme Blanco (1):
+      404 render must be called AFTER layout. The current values are wrong (layout is never called), which in some weird situations may lead to $e->getResponse() return NULL.
+
+HHGAG (1):
+      adding turkish translation
+
+Intiilapa (1):
+      Initial french translation
+
+Jan Pieper (1):
+      [zendframework/ZendSkeletonApplication#67] fixed path to index.phtml (was introduced by: 87bd76e8)
+
+Julio Antúnez Tarín (22):
       - Testing Doctrine 2.3.
       - Tested Proxy Pattern.
       - Added test data and create Stdlib Library.
@@ -14,8 +227,213 @@ Julio Antúnez Tarín (15):
       - Updating README.md.
       - Fixing README.md.
       Merge branch 'develop' of github.com:jatap/zf2learning into develop
+      Merge branch 'develop' of github.com:jatap/zf2learning into develop
+      Merge branch 'develop' of /Users/julioantuneztarin/Git/zf2learning into develop
+      - Bumped version to number 1.0.
+      - Merge branch 'release-1.0' into develop
+      - Merge branch 'develop' of /Users/julioantuneztarin/Git/zf2learning into develop
+      - Updated database name.     - Fixed .gitignore strategy.
+      - Excluded Doctrine from .gitignore.
 
 Julio Antúnez Tarín (2):
       - Updating README.md
       -
+
+Jurian Sluiman (4):
+      Prepend styles in layout
+      Prepend scripts in layout
+      Add inlineScript() helper
+      Use long tags with echo statement
+
+Kyle Spraggs (21):
+      Initial composer commit.
+      Added vendor/.gitignore to ignore composer install files.     Removed the composer.phar download line from README as this file is now shipped directly.
+      Added composer.lock to git.     Added vendor/ to .gitignore, this directory is created by composer.     Modified index.php to skip the autoloader factory.
+      Merge branch 'master' into feature/composer
+      Removing merge files of index.php that snuck in.
+      Updated composer files.
+      Merge branch 'master' into feature/composer
+      Updated composer.     Added vendor/ dir.
+      Updated .gitignore.
+      Updated composer.     Added an error to index when vendor/autoload.php could not be found.
+      Added README back to vendor/
+      Updated .gitignore files.     Updated composer.
+      Updated README to go over submodule option.     Added composer autoloading to Skeleton and updated Module.php to reflect.
+      Updated README to keep ordering of index.php.
+      Further clarified README.md with autoloader additions to Module.php
+      Updated README to add a Virtual Host section to installation.
+      Updated composer lock file.
+      Remove autoload files that are no longer needed.
+      Removed unnecessary key from template_path_stack.
+      Updated composer.json to latest master.     Updated ZF2 submodule to latest master.
+      Updated composer.     Updated zf2 master (composer and submodule).
+
+Lukas Kahwe Smith (1):
+      typo fix
+
+Maks (4):
+      Merge pull request #101 from SocalNick/master
+      Merge pull request #102 from gerardroche/patch-2
+      Merge pull request #104 from lsmith77/patch-1
+      Merge pull request #109 from erik-landvall/patch-1
+
+Maks3w (1):
+      [zen-14] Add license file & headers
+
+Marco Pivetta (10):
+      Moving pages/404.phtml rendering (in case of 404 errors) to error/404.phtml
+      Adding setting for exceptions visibility in error views
+      Stronger typing on error views to avoid E_FATAL and hide exceptions if display_exceptions is not set to true
+      Fixing configuration according with changes done to router initializationThis change just moves router configuration to instance configuration of the router itself. The change is necessary to allow the router to be injected into other instances of the DiC and to eventually switch the router type to a custom one with own dependencies and eventually completely unaware of the default Zend\Mvc\Router\Http\TreeRouteStack. These changes are related to https://github.com/Ocramius/zf2/compare/zendframework%3Amaster...mvc-router-from-locator
+      Better overview on previous exceptions and more exception details (file name, line number, exception type)
+      Moving Url and Doctype view helpers setup to module configuration. Also, adding various comments on the configuration to make it more explicit as it importance increases
+      Removing Zend\Mvc\Router\RouteStack instance definition (already defined in Zend\Mvc\Bootstrap
+      Removing unused stat call and reducing complexity of index.php
+      Adding first version of italian translations
+      Cleaning up it_IT translations
+
+Martin Hujer (3):
+      Clean headings outline
+      Show exception's message on error page
+      Remove non-existing PageController
+
+Matt Cockayne (1):
+      added module config options for dependency and installation
+
+Matthew Weier O'Phinney (54):
+      Added README.md
+      Use addRoutes() instead of manually creating routes in a loop
+      Updates and cleanup
+      Updated to use Zend\Mvc\Bootstrap
+      Modified vendor/ZendFramework to track weierophinney/feature/view-layer
+      Working view layer integration
+      Repointed ZF vendor to weierophinney fork
+      Updated ZF to latest feature/view-layer changes
+      Simplified TemplatePathStack config
+      Updated configuration to follow view-layer
+      Updated ZF feature/view-layer branch
+      Fixes for helper loader/broker configuration
+      Updated feature/view-layer
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      [#1] Added AggregateResolver
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated vendor/ZendFramework
+      Updated to latest view-layer changes
+      Updates to 404 handling
+      Fixes to enable and enforce SharedEventManager instance
+      Updated ZF2 submodule to latest master (bd991a93)
+      Cleanup in preparation for PR
+      Updated to latest on weierophinney/feature/mvc-sm-viewmanager
+      [zen-33] Updated config globbing
+      [zen-33] Remove unused configuration
+      [zen-33] Update to add doctype configuration
+      [zen-33] Updated to new controller scoped container
+      [zen-33] Removed interfaces from Module
+      [zendframework/zf2#1293] Move view template down a directory
+      [zen-24] Removed the default route
+      [zen-24] Added application module default route
+      Merge branch 'feature/bootstrap-redux' of https://github.com/EvanDotPro/ZendSkeletonApplication into feature/beta5-readiness
+      [zen-72] Update to use escapeHtml helper
+      Merge pull request #100 from dlu-gs/feature/version-namespace
+      Merge pull request #99 from RWOverdijk/update/update_composer
+      Merge pull request #98 from juriansluiman/feature/layout-placeholder-enhancements
+      Merge pull request #97 from lukaszr/fix/typo-in-translations
+      Merge branch 'polish-translation' of https://github.com/lukaszr/ZendSkeletonApplication
+      Update to fix typo fixed in later PR
+      Updated ZF2 submodule to master
+
+Michiel Staessen (1):
+      Removed obsolete lines.
+
+Mohammad A. ZeinEddin (1):
+      add missing "echo" to display the controller name
+
+Nicholas Calugar (1):
+      Updating SHA for ZF2 via composer to same as submodule
+
+RWOverdijk (1):
+      Updated composer
+
+Ralph Schindler (1):
+      Initial wiring of ServiceManager over DI for MVC
+
+Rob Allen (19):
+      add library to the include path, so we can put ZF2's Zend folder directly in library
+      Inject the PluginBroker into the ActionController so that we pick up any module's controller plugins that they have injected into it. By injecting into ActionController, all controllers that extend it will automatically pick up this injection without having to inject themselves which of course saves a lot of typing for developers and stops them wondering why a given plugin isn't working in a particular controller\!
+      Inject the plugin loader into Zend\Mvc\Controller\PluginBroker by default to simplify injecting controller plugins
+      Move some of the view related code from the Module class to the layout view script
+      Merge remote-tracking branch 'EvanDotPro/hotfix/zf2-api-updates'
+      Update route configuration so that urls of the the form index/actionName actually work.
+      Merge remote-tracking branch 'EvanDotPro/feature/configurable-glob-paths'
+      Merge remote-tracking branch 'SpiffyJr/feature/composer'
+      Merge pull request #64 from EvanDotPro/hotfix/composer-fixes
+      Merge pull request #68 from BostjanOb/master
+      Merge remote-tracking branch 'EvanDotPro/feature/composer-optional'
+      Add closing dl
+      ensure we register the Zend namespace for the StandardAutoloader
+      Merge remote-tracking branch 'coss/hotfix/abstract-controller'
+      Update to match changes in PR 1695
+      Register ModuleRouteListener
+      The SM name for the controller cannot include the Controller postfix if you want to use the ModuleRouteListener as the url segment for :controller won't have the word Controller in it.
+      Merge remote-tracking branch 'weierophinney/feature/routing'
+      Merge remote-tracking branch 'weierophinney/hotfix/beta5-escaper'
+
+Roberto Wesley Overdijk (1):
+      Removed redundant argument being passed
+
+Romke van Kraaij (1):
+      Remove unused variables
+
+Ryan Mauger (5):
+      Added headLink, headMeta, and headScript to layout for added flexibility
+      Merge pull request #17 from Thinkscape/master
+      Merge pull request #15 from Maxell/master
+      Merge pull request #20 from akrabat/hotfix/di-for-controller-plugin
+      Merge pull request #19 from Danielss89/master
+
+Sammie S. Taunton (1):
+      Resolves assignment in condition warning
+
+Steffen Dietz (1):
+      Using getBasePath() instead of getBaseUrl() to detect basePath.
+
+Tawfek Daghistani (3):
+      arabic translation
+      1-creating mo file     2- fixing bug in po file
+      fixing translation files
+
+Thinkscape (1):
+      Rename "views" and "layouts" to singular form.
+
+Troy McCabe (1):
+      Fixing typo
+
+Walter Tamboer (1):
+      Added a dutch translation.
+
+Yanick Rochon (1):
+      Added fr_CA translation
+
+sasezaki (3):
+      adding Japanese(ja_JP) Translate file
+      edit X-Poedit- line in language/ja_JP.po
+      adding not translated Japanese, fixed typo.
+
+Łukasz Rodziewicz (2):
+      Adding polish translations.
+      Fixing typo webiste into index/index template and some php_format issue into it_IT translations.
 
