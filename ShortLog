@@ -1,0 +1,21 @@
+Julio Antúnez Tarín (15):
+      - Testing Doctrine 2.3.
+      - Tested Proxy Pattern.
+      - Added test data and create Stdlib Library.
+      - Minor fixes.
+      - Minor fixes.
+      - Removed Stdlib Library.     - Refactorized .gitignore.
+      - Deleted old composer.json.
+      - Fixing .gitignore.
+      - Moved Album to new branch.
+      - Regenerated classmap file.
+      Merge branch 'feature-cleaning-issues' into develop
+      - Fixing .gitignore.
+      - Updating README.md.
+      - Fixing README.md.
+      Merge branch 'develop' of github.com:jatap/zf2learning into develop
+
+Julio Antúnez Tarín (2):
+      - Updating README.md
+      -
+
