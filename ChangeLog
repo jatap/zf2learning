@@ -1,3 +1,53 @@
+commit cf35ba7bfd9fc444660a1a351c3ef969d5fc3e54
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 08:14:46 2012 +0200
+
+    - Excluded Doctrine from .gitignore.
+
+commit 88e0c5f7f4f89103a06711e7518b6b8408b0b32d
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 08:12:52 2012 +0200
+
+    - Updated database name.
+    - Fixed .gitignore strategy.
+
+commit 5faeba44164b4e6a218aaf211f46b8e42dd54206
+Merge: f38c214 063e50e
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 06:28:43 2012 +0200
+
+    - Merge branch 'develop' of /Users/julioantuneztarin/Git/zf2learning into develop
+
+commit 063e50ec0eecf65c707c952c0c585ecea718f400
+Merge: fe36c10 79ffc96
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 06:28:23 2012 +0200
+
+    - Merge branch 'release-1.0' into develop
+
+commit 79ffc9666af400d318ed45d0792c920256af5b53
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 06:27:35 2012 +0200
+
+    - Bumped version to number 1.0.
+
+commit f38c214e87b4521d8e848ffd852c0d0d4437dabf
+Merge: d795c43 fe36c10
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:59:39 2012 +0200
+
+    Merge branch 'develop' of /Users/julioantuneztarin/Git/zf2learning into develop
+
+commit d795c43ed1143fb83d516a124f2cb779a15bacac
+Merge: 603d4ce 70243a2
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:57:19 2012 +0200
+
+    Merge branch 'develop' of github.com:jatap/zf2learning into develop
+    
+    Conflicts:
+    	README.md
+
 commit fe36c10c47f1d01452b0a7f11977486279cf296d
 Merge: 603d4ce 70243a2
 Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
@@ -108,3 +158,2367 @@ Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
 Date:   Thu Aug 30 11:41:41 2012 +0200
 
     - Testing Doctrine 2.3.
+
+commit 0062d0f8fc69a54ecd97702b528329406bf88bcd
+Merge: 3c2ad08 19cd1d4
+Author: Maks <github.maks3w@virtualplanets.net>
+Date:   Wed Aug 15 13:41:57 2012 -0700
+
+    Merge pull request #109 from erik-landvall/patch-1
+    
+    Update module/Application/view/error/index.phtml
+
+commit 19cd1d4bd7f3b3c342351707c7c0f354e8b2a979
+Author: Erik Landvall <erik@landvall.se>
+Date:   Wed Aug 15 23:19:26 2012 +0300
+
+    Update module/Application/view/error/index.phtml
+    
+    Correcting html output
+
+commit 3c2ad08b1ca3b094d520ae27217e7d40e03023d1
+Merge: 7cebc10 3d8c513
+Author: Maks <github.maks3w@virtualplanets.net>
+Date:   Mon Aug 6 00:18:04 2012 -0700
+
+    Merge pull request #104 from lsmith77/patch-1
+    
+    typo fix
+
+commit 3d8c513862853e1ebea7158cda8bd45040091613
+Author: Lukas Kahwe Smith <smith@pooteeweet.org>
+Date:   Mon Aug 6 09:58:37 2012 +0300
+
+    typo fix
+
+commit 7cebc10e7e37a82de2de9df6510ad93f2c35401d
+Merge: 4ecb27e 5fa4dad
+Author: Maks <github.maks3w@virtualplanets.net>
+Date:   Sun Aug 5 08:45:26 2012 -0700
+
+    Merge pull request #102 from gerardroche/patch-2
+    
+    Add composer.lock file to ignore list
+
+commit 5fa4dadb727122c6dd0f2da2291af0465acf766d
+Author: Gerard Roche <bullfrogblues@live.com>
+Date:   Fri Aug 3 17:19:21 2012 +0200
+
+    Add composer.lock file to ignore list
+
+commit 4ecb27ec28c1fd36be3f68a80d5cf3c082d23505
+Merge: 9f021fd 0369e28
+Author: Maks <github.maks3w@virtualplanets.net>
+Date:   Thu Aug 2 22:50:52 2012 -0700
+
+    Merge pull request #101 from SocalNick/master
+    
+    Updating SHA for ZF2 via composer to same as submodule
+
+commit 0369e2884dc150cd4aee0e7eae4fe8c75518d17c
+Author: Nicholas Calugar <njcalugar@gmail.com>
+Date:   Thu Aug 2 16:56:14 2012 -0700
+
+    Updating SHA for ZF2 via composer to same as submodule
+
+commit 9f021fda9862f9937864a7fbc2b5b20203bc1fd0
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Aug 2 15:36:30 2012 -0500
+
+    Updated ZF2 submodule to master
+    
+    - a59928a3 (rc2)
+
+commit 7ee49c5c8a2377ef97184b28cc6004cb11811b2e
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Aug 2 14:51:54 2012 -0500
+
+    Update to fix typo fixed in later PR
+
+commit 623fd1790c9789594fed0944eb083b99de06dcfb
+Merge: 4031d3c bf72eda
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Aug 2 14:51:14 2012 -0500
+
+    Merge branch 'polish-translation' of https://github.com/lukaszr/ZendSkeletonApplication
+
+commit 4031d3ce82909746f3e865cfb88ccccef7bb4515
+Merge: 0bdbbc0 59627a8
+Author: Matthew Weier O'Phinney <matthew@weierophinney.net>
+Date:   Thu Aug 2 12:50:33 2012 -0700
+
+    Merge pull request #97 from lukaszr/fix/typo-in-translations
+    
+    Fixing typo 'webiste' into index/index template and some php_format issue ...
+
+commit 0bdbbc02d4a5a4e5f3271981a4f0798bf05ac849
+Merge: aad30a9 bd00be5
+Author: Matthew Weier O'Phinney <matthew@weierophinney.net>
+Date:   Thu Aug 2 12:49:05 2012 -0700
+
+    Merge pull request #98 from juriansluiman/feature/layout-placeholder-enhancements
+    
+    Layout enhancements for placeholder helper
+
+commit aad30a918f6707107e7a916bc5e61e04f5bfd4da
+Merge: f0e666e 19807c6
+Author: Matthew Weier O'Phinney <matthew@weierophinney.net>
+Date:   Thu Aug 2 12:48:14 2012 -0700
+
+    Merge pull request #99 from RWOverdijk/update/update_composer
+    
+    Updated composer
+
+commit f0e666e97d66ed5d6df735fcdf27ea78105d1773
+Merge: 82351cd 0dcb523
+Author: Matthew Weier O'Phinney <matthew@weierophinney.net>
+Date:   Thu Aug 2 12:47:31 2012 -0700
+
+    Merge pull request #100 from dlu-gs/feature/version-namespace
+    
+    RC2 compatibility - Zend\Version namespace
+
+commit 0dcb5232f4b4349a469d5142c905a45415e679c2
+Author: David Lukas <david.lukas@zfdaily.com>
+Date:   Thu Aug 2 17:29:55 2012 +0200
+
+    RC compatibility - Zend\Version namespace
+
+commit 19807c6c6e27c598726dd09695a35a4c113e70fd
+Author: RWOverdijk <r.w.overdijk@gmail.com>
+Date:   Tue Jul 31 10:18:21 2012 +0200
+
+    Updated composer
+
+commit bd00be5c791c684616b833a69c1ec6261c063160
+Author: Jurian Sluiman <jurian@soflomo.com>
+Date:   Sun Jul 29 14:47:40 2012 +0200
+
+    Use long tags with echo statement
+
+commit 98508af86470d4bf4deb630f29fd9af8dbf5560c
+Author: Jurian Sluiman <jurian@soflomo.com>
+Date:   Sun Jul 29 11:40:13 2012 +0200
+
+    Add inlineScript() helper
+    
+    For faster DOM parsing it is recommended to place some scripts just above
+    the </body> tag. Rendering the inlineScript() helper here makes it possible
+    to inject files in both the <head> and at the end of the <body>
+
+commit 0f4956ac40ff79f8b1262fa8f6206107350cf7e2
+Author: Jurian Sluiman <jurian@soflomo.com>
+Date:   Sun Jul 29 11:39:18 2012 +0200
+
+    Prepend scripts in layout
+    
+    When view scripts append scripts based on jQuery, they are registered last
+    so jQuery is already loaded.
+
+commit 7f64c8d07b4cc47a96039a9553ddf70084bbac43
+Author: Jurian Sluiman <jurian@soflomo.com>
+Date:   Sun Jul 29 11:38:17 2012 +0200
+
+    Prepend styles in layout
+    
+    When view scripts append styles for the headLink() helper, those are now
+    really registered last.
+
+commit 59627a84b170caa6d007d953a80830f082bbae02
+Author: Łukasz Rodziewicz <lukasz@rodziewicz.com.pl>
+Date:   Sat Jul 28 20:59:00 2012 +0200
+
+    Fixing typo webiste into index/index template and some php_format issue into it_IT translations.
+
+commit bf72eda408fe4ffb09e46b2d8b31293da9f7d381
+Author: Łukasz Rodziewicz <lukasz@rodziewicz.com.pl>
+Date:   Sat Jul 28 20:36:42 2012 +0200
+
+    Adding polish translations.
+
+commit 82351cd23a29b4da0be3758bdf41f14c2efaeecc
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 26 06:37:00 2012 -0700
+
+    Update composer.json for ZF2 RC1
+
+commit 5fda628b6b03ee9e34f9585adddd81e7d4d59710
+Merge: 0a586e8 a837c6a
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 26 06:35:54 2012 -0700
+
+    Merge remote-tracking branch 'Thinkscape/master'
+    
+    PR #95
+
+commit a837c6a5379c25ba3304d230760a83f94461b11b
+Author: Artur Bodera <abodera@gmail.com>
+Date:   Thu Jul 26 15:31:09 2012 +0200
+
+    Update Skeleton to ZF2 RC1.
+    
+    - updated zf2 submodule.
+    - removed ->send() from index.php because it has been deprecated (more info: https://github.com/Thinkscape/zf2/commit/37747bd608d9b75dc340c4ff8b991ff3706dd4de)
+
+commit 0a586e885af2d6ed2c700cbe07d44828a98c1d07
+Merge: d31d414 e6221aa
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Jul 24 08:32:51 2012 -0700
+
+    Merge pull request #94 from WalterTamboer/feature/dutch-translation
+    
+    Added a dutch translation.
+
+commit e6221aa87fa36dde7855becb9e135dfa52545f11
+Author: Walter Tamboer <w.tamboer@polderknowledge.nl>
+Date:   Tue Jul 24 13:33:18 2012 +0200
+
+    Added a dutch translation.
+
+commit d31d414cffcd820c2a3d505f3a66c957637e4a37
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 20 07:23:49 2012 -0700
+
+    Update ZF2 commit
+
+commit bacacfdb37786ae40f4100fe6598c0d79047ffce
+Merge: e297c27 dfd52ac
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 19 15:59:34 2012 -0700
+
+    Merge pull request #91 from sasezaki/translate_ja
+    
+    adding not translated Japanese, fixed typo.
+
+commit e297c278281953c85393dae1ff91b82d38eb4bd5
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Jul 16 02:30:01 2012 -0700
+
+    Update ZF2 commit
+
+commit dfd52ac57fe34b994cf1391c538facabd851ec81
+Author: sasezaki <sasezaki@gmail.com>
+Date:   Sun Jul 15 08:23:50 2012 +0900
+
+    adding not translated Japanese, fixed typo.
+
+commit 30078ec56192ef56d8c943ab1ffc73e101807ef4
+Merge: 38525e4 55ee566
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 13 19:41:34 2012 -0700
+
+    Merge pull request #90 from diemuzi/patch-1
+    
+    Resolves assignment in condition warning
+
+commit 55ee5668a858b98ffd0876d3f9895e1f58390472
+Author: Sammie S. Taunton <diemuzi@gmail.com>
+Date:   Fri Jul 13 18:38:54 2012 -0500
+
+    Resolves assignment in condition warning
+
+commit 38525e4e9f7b988355991cdc04dc8e8d209d3ea8
+Merge: 5b69b48 ac69ac0
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 13 11:01:33 2012 -0700
+
+    Merge pull request #89 from Maks3w/zen-14
+    
+    [zen-14] Add license file & headers
+
+commit 5b69b48da1505b0db9b900d69b9e5b234f47f5da
+Merge: c2c7315 3b20861
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 13 11:00:58 2012 -0700
+
+    Merge pull request #88 from Ocramius/feature/i18n-it_IT
+    
+    Feature/i18n it it
+
+commit ac69ac084cff7beee14da87d3154842d21d7164f
+Author: Maks3w <github.maks3w@virtualplanets.net>
+Date:   Fri Jul 13 00:47:10 2012 +0200
+
+    [zen-14] Add license file & headers
+
+commit 3b208613d04c531c753cbaa698bb759b02e7be1a
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Thu Jul 12 22:15:15 2012 +0200
+
+    Cleaning up it_IT translations
+
+commit e08e128dbf054f418145eb12ff478f59a59f56c7
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Fri Jul 6 10:50:18 2012 +0200
+
+    Adding first version of italian translations
+
+commit c2c73159c3684dc5a982a0f15358cc11a1d65a4b
+Author: Tawfek Daghistani <tawfekov@hotmail.com>
+Date:   Sat Jul 7 14:00:23 2012 +0300
+
+     fixing translation files
+
+commit 3cef407004e38f42ca57edb5f8d89d1b7be7fb71
+Author: Tawfek Daghistani <tawfekov@hotmail.com>
+Date:   Sat Jul 7 12:52:42 2012 +0300
+
+    1-creating mo file
+    2- fixing bug in po file
+
+commit bad2f8788feba84992ace4d4b5c4a198958c3b6e
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 13:32:23 2012 -0700
+
+    Update ZF2 commit to beta5 tag
+
+commit 27b1b737222237f08bb2fae8d2588ee8089dc7bf
+Merge: 00d825e cdc1e98
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 13:29:39 2012 -0700
+
+    Merge branch 'feature/i18n'
+    
+    This merges PR #85
+
+commit cdc1e98f42803fe0552be5d9e30c999b792d9974
+Merge: 015765a cc4864d
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 13:14:42 2012 -0700
+
+    Merge remote-tracking branch 'tawfekov/master' into feature/i18n
+    
+    Adds ar_SY translation
+
+commit 015765a10916a201f3533b0cbf16db00c58e4058
+Merge: a626130 ac311b8
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 10:23:53 2012 -0700
+
+    Merge remote-tracking branch 'adolfoabegg/feature/i18n' into feature/i18n
+    
+    Adds es_ES
+
+commit cc4864dbd35dcbb9923d06e414efcaa7e445763e
+Author: Tawfek Daghistani <tawfekov@gmail.com>
+Date:   Fri Jul 6 20:16:00 2012 +0300
+
+    arabic translation
+
+commit ac311b85b600872342555034fcaebf8ca6ed829d
+Author: Adolfo Abegg <adolfoabegg@gmail.com>
+Date:   Fri Jul 6 19:12:13 2012 +0200
+
+    Added spanish translation
+
+commit a626130d81bcaf5d07b7c51001f0dd59596b31f6
+Merge: b320a34 df680ed
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 08:23:40 2012 -0700
+
+    Merge remote-tracking branch 'dlu-gs/feature/i18n-cs_CZ' into feature/i18n
+    
+    Adds Czech
+
+commit b320a348fb87d48166fbc3b0f0dbfd5830c05dc0
+Merge: 703a089 b2e2d39
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 08:22:54 2012 -0700
+
+    Merge remote-tracking branch 'sasezaki/feature/i18n' into feature/i18n
+    
+    Adds Japansese
+
+commit 703a089de26e75f9fbd2f6bc70c11fc6a7785fcf
+Merge: 161585b b53eb0b
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 08:22:14 2012 -0700
+
+    Merge remote-tracking branch 'HHGAG/feature/i18n' into feature/i18n
+    
+    Adds Turkish.
+
+commit 161585b5f940db1c6f7809acab3364e232059b2f
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jul 6 08:19:05 2012 -0700
+
+    Small typo in de_DE
+    
+    Pointed out by @coss.
+
+commit df680ed53112b5adfbc9ba1cbc5cff49b336984e
+Author: David Lukas <david.lukas@zfdaily.com>
+Date:   Fri Jul 6 13:11:57 2012 +0200
+
+    Czech translation (cs_CZ)
+
+commit b2e2d397b1c745b4282ec28d3d676859ee44d405
+Author: sasezaki <sasezaki@gmail.com>
+Date:   Fri Jul 6 19:42:36 2012 +0900
+
+    edit X-Poedit- line in language/ja_JP.po
+
+commit b53eb0b28c65943f9af14ed79050233ae108f113
+Author: HHGAG <zend@hhg-multistore.com>
+Date:   Fri Jul 6 13:20:49 2012 +0300
+
+    adding turkish translation
+
+commit 1decb76e22113dbf30dd35b81a993f45ba42c1e8
+Author: sasezaki <sasezaki@gmail.com>
+Date:   Fri Jul 6 18:08:04 2012 +0900
+
+    adding Japanese(ja_JP) Translate file
+
+commit ab1fbb0e83b0c405715893bdf5539969ddd0a289
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 23:58:09 2012 -0700
+
+    Typos in de_DE translation
+
+commit a38af9cce467466f9a300bb3d95f26b5676a543d
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 23:54:55 2012 -0700
+
+    Small typo fixes
+    
+    - s/ZendSkeletonModule/ZendSkeletonApplication in de_DE po file
+    - Switch back to en_US in module.config.php after accidental commit
+
+commit b64e24f5cd4d39e5aeecf036ce24fd0287702089
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 23:47:18 2012 -0700
+
+    Add missing de_DE keys
+
+commit fd6bf67e204966dc6c71dde79f93ad5de049084d
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 23:37:35 2012 -0700
+
+    Add missing %s in fr_FR translation
+
+commit 8c9094784c929a6f66a4269ca5d17894760818b1
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 23:34:58 2012 -0700
+
+    Add missing echo to translation in layout
+
+commit e9fdbd2d9be61a31b538f1e66978f7484da6ee84
+Author: Yanick Rochon <yanick.rochon@gmail.com>
+Date:   Fri Jul 6 02:24:28 2012 -0400
+
+    Added fr_CA translation
+
+commit 53fd668b9bf2b143c11285904fc98fc7705f04b8
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 22:44:31 2012 -0700
+
+    Update en_US fr_FR for new keys
+
+commit 553ab98287a3c3ea5653dc6b1f90180dc42ec76d
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 22:43:18 2012 -0700
+
+    Translate text in layout
+
+commit ff189bfaae546ed8ad1ed90faa329a53ff5cf97e
+Merge: c79d54b a2ee336
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 21:56:32 2012 -0700
+
+    Merge remote-tracking branch 'b-durand/feature/i18n' into feature/i18n
+    
+    Adds fr_FR
+
+commit c79d54b64ed8f0de7d7f620dc71b83b459736c1a
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 21:54:37 2012 -0700
+
+    Build mo for de_DE
+
+commit a2ee336a60bf1c00e66063476248e3c3ecbff364
+Author: Intiilapa <intiilapa-github@ssji.net>
+Date:   Fri Jul 6 06:48:07 2012 +0200
+
+    Initial french translation
+
+commit a6c493b1946b11000603df06b64691cc64aaab1c
+Author: Eric <cossish@gmail.com>
+Date:   Fri Jul 6 06:35:49 2012 +0200
+
+    Added german translation.
+
+commit 88f96187c3782f2359ff9f557b64549d63a360dc
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 19:40:41 2012 -0700
+
+    Initial translation setup
+
+commit 00d825e7a507f95e2a3cbde2901547d9d1593412
+Merge: 459bae3 f2a96aa
+Author: Rob Allen <rob@akrabat.com>
+Date:   Thu Jul 5 22:35:21 2012 +0100
+
+    Merge remote-tracking branch 'weierophinney/hotfix/beta5-escaper'
+
+commit f2a96aacfb941b358382a79a2f6f5a975a0a8664
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Jul 5 16:30:49 2012 -0500
+
+    [zen-72] Update to use escapeHtml helper
+    
+    - s/escape/escapeHtml/ in the 404 view
+
+commit 459bae38b761f493d2c93aa5cb6091c49f5ca2ca
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jul 5 09:08:16 2012 -0700
+
+    Update ZF2 commit
+
+commit b248eaa18f9b17fd6c2c59f9ae26ce26980cca28
+Merge: d5b6985 4e60e75
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Jul 5 10:27:57 2012 -0500
+
+    Merge branch 'feature/bootstrap-redux' of https://github.com/EvanDotPro/ZendSkeletonApplication into feature/beta5-readiness
+
+commit 4e60e75187f494a93bc03bf5011c6b990ee416f1
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Jul 4 17:45:21 2012 -0700
+
+    Add jquery to layout by default
+    
+    I'm not 100% sold on shipping this with the skeleton, as it's one more
+    thing people have to remove if they're not using it. However, it's
+    required to make the responsive layout work properly and having it
+    included makes ZendDeveloperTools work with the skeleton out of the box,
+    which is a plus.
+
+commit d5b69857a4ebe38b885c0f763375faba31572b52
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Jul 4 05:18:52 2012 -0700
+
+    Update ZF2 commit
+
+commit f4fce1b7d7e9578a47a75a0a4facabd2fb8f5c4d
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Jul 3 15:39:28 2012 -0700
+
+    Clean up layout and configs
+    
+    - Layout helpers used inline instead of in code block at the top of the
+      layout.
+    - Removed unnecessary config keys
+
+commit 4261f12838b8ac6140ecd483e873b3a79a4d1b91
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Jul 3 15:12:38 2012 -0700
+
+    Clean up index.php significantly
+
+commit ac6e9b0e28280704afeda3061ed40f2821b4e03e
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Jul 2 10:55:37 2012 -0700
+
+    Update ZF2 commit for BC break
+    
+    Skeleton was updated for bc break (['controller']['classes'] changed to
+    ['controllers']['invokables']) but the ZF2 commit was not updated to reflect the
+    change.
+
+commit d68c2b4fd814e632274f0f1a4b605344c56fbcee
+Merge: b828444 cfd6794
+Author: Rob Allen <rob@akrabat.com>
+Date:   Mon Jul 2 14:46:31 2012 +0100
+
+    Merge remote-tracking branch 'weierophinney/feature/routing'
+
+commit cfd6794909ae2e48aeba8ef0120e91ff440047a0
+Author: Rob Allen <rob@akrabat.com>
+Date:   Mon Jul 2 13:31:45 2012 +0100
+
+    The SM name for the controller cannot include the Controller postfix if you want to use the ModuleRouteListener as the url segment for :controller won't have the word Controller in it.
+
+commit 425c15d47b7d608b56b0f4d79fafd1ab2e195d80
+Author: Rob Allen <rob@akrabat.com>
+Date:   Mon Jul 2 13:27:39 2012 +0100
+
+    Register ModuleRouteListener
+
+commit bc76b2936b8f25a022f56be5be5724fc64323407
+Author: Rob Allen <rob@akrabat.com>
+Date:   Mon Jul 2 13:27:05 2012 +0100
+
+    Update to match changes in PR 1695
+
+commit a9e4be85419d45c13a96d9939d5df4c30dfa8cd5
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Jul 2 06:50:01 2012 -0500
+
+    [zen-24] Added application module default route
+    
+    - per Akrabat
+
+commit 36a6cbc066c8f3a25defd744a40deffcaf403b9e
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Jul 2 06:35:25 2012 -0500
+
+    [zen-24] Removed the default route
+    
+    - Removed the default route, as it is not recommended.
+    - See https://github.com/zendframework/ZendSkeletonModule/pull/3 for how
+      a module-specific default route can be created.
+
+commit b8284440bcf35f4babeb5be149b74f44f6904e83
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Jul 1 01:50:33 2012 -0700
+
+    Update ZF2 commit
+
+commit a356134a7b457fc029f5344119e0e1f58607034c
+Merge: 801c8e6 b1ed9cf
+Author: Rob Allen <rob@akrabat.com>
+Date:   Sat Jun 30 20:34:57 2012 +0100
+
+    Merge remote-tracking branch 'coss/hotfix/abstract-controller'
+
+commit b1ed9cf58083c48409f4d33923657eb8dc0ec70d
+Author: Eric <cossish@gmail.com>
+Date:   Sat Jun 30 21:28:04 2012 +0200
+
+    Fixed ActionController name.
+
+commit 801c8e68a774c9a10881c457d300d93cf9071d85
+Merge: 9abb910 11d85a5
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jun 29 16:22:12 2012 -0700
+
+    Merge pull request #77 from SpiffyJr/pr/update-zf2
+    
+    Updated composer.json to latest master.
+
+commit 11d85a5606dc34c822298653277b83691543a933
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Fri Jun 29 18:03:36 2012 -0500
+
+    Updated composer.
+    Updated zf2 master (composer and submodule).
+
+commit 3b4e0e485233d44ee3a247bf34c1ca1bfd276c90
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Fri Jun 29 17:48:24 2012 -0500
+
+    Updated composer.json to latest master.
+    Updated ZF2 submodule to latest master.
+
+commit 9abb910f375d369ae89b06bd27bfa3cb11926664
+Merge: bd69b96 07df61e
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Jun 27 22:41:08 2012 -0700
+
+    Merge pull request #75 from coss/fix/copyright-year
+    
+    Fixed copyright year in footer.
+
+commit 07df61efbbfdc1195df1a1b64dfba9e15f7f3a5f
+Author: Eric <cossish@gmail.com>
+Date:   Wed Jun 27 17:55:31 2012 +0200
+
+    Fixed copyright year in footer.
+
+commit bd69b968ea1d1548f5500c5277e764634293d9d7
+Merge: dce862e 4b53f9f
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Jun 26 15:38:30 2012 -0700
+
+    Merge pull request #74 from ZeinEddin/master
+    
+    Add missing "echo"
+
+commit 4b53f9f6426aada45be7c077d5f89141d7087bcd
+Author: Mohammad A. ZeinEddin <mohammad@zeineddin.name>
+Date:   Mon Jun 25 11:51:05 2012 +0300
+
+    add missing "echo" to display the controller name
+
+commit dce862e795dde8d67cbecacd5110d00080582d0d
+Merge: d3fc897 887dd7e
+Author: Dolf Schimmel <dolfschimmel@gmail.com>
+Date:   Wed Jun 20 11:51:46 2012 -0700
+
+    Merge pull request #73 from akrabat/hotfix/standardautoloader
+    
+    Ensure we register the Zend namespace for the StandardAutoloader
+
+commit 887dd7e6fde15be65b93e6b7e224246cabe29c1c
+Author: Rob Allen <rob@akrabat.com>
+Date:   Wed Jun 20 19:40:19 2012 +0100
+
+    ensure we register the Zend namespace for the StandardAutoloader
+
+commit d3fc8975563eb9c330d0bf61963c66488a714534
+Merge: b18cd8a 8da7a71
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jun 15 12:15:35 2012 -0700
+
+    Merge pull request #72 from akrabat/hotfix/404-html
+    
+    Add closing dl
+
+commit 8da7a71e97dca78a63bfb85124885352839530a6
+Author: Rob Allen <rob@akrabat.com>
+Date:   Fri Jun 15 20:13:47 2012 +0100
+
+    Add closing dl
+
+commit b18cd8a7037b800cef8a5847e5a7f9538149fccd
+Merge: d5f0f32 aa1583f
+Author: Rob Allen <rob@akrabat.com>
+Date:   Thu Jun 14 15:48:54 2012 +0100
+
+    Merge remote-tracking branch 'EvanDotPro/feature/composer-optional'
+
+commit aa1583ff9ace6292535204e757d351d1e304ec0a
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Jun 14 02:02:12 2012 -0700
+
+    Remove Application namespace psr0 autoloader from composer.json
+
+commit 7ac195f6bdd98a9d64c58bfc79fd885c2f489c88
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Jun 13 15:42:12 2012 -0700
+
+    Update index.php and Application\Module to make composer use optional
+    
+    - index.php now supports ZF2_PATH env var or git submodule
+    - re-add the git submodule to make non-composer install easier
+    - update the readme
+    - use include instead of include_once, see:
+    http://robert.accettura.com/blog/2011/06/11/phps-include_once-is-insanely-expensive/
+    
+    If you are not using composer, you no longer have to make changes to the default
+    skeleton.
+
+commit d5f0f3216084687f5224e2b4c2768fefca628500
+Merge: 732ef8e a530a98
+Author: Dolf Schimmel <dolfschimmel@gmail.com>
+Date:   Wed Jun 13 09:46:12 2012 -0700
+
+    Merge pull request #70 from EvanDotPro/feature/zf2-path-env
+    
+    Add conditional check for allowing ZF2_PATH env variable to be used
+
+commit a530a988873f4c5d6eb7bf36601b9a42d3908428
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Jun 13 09:43:51 2012 -0700
+
+    Add conditional check for allowing ZF2_PATH env variable to be used
+
+commit 732ef8e420503e6ef5e7f1a8b56721558cef2953
+Merge: 4743008 e973453
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Jun 13 05:44:44 2012 -0700
+
+    Merge pull request #69 from janpieper/patch-1
+    
+    wrong view file mapping
+
+commit 47430085db45a770ae422a43a6093e8c78cb8cf3
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Jun 11 08:04:49 2012 -0700
+
+    Update composer commit pointer for zf2
+
+commit e9734534c5ac41e36317a2cbd30a1c924d86070f
+Author: Jan Pieper <kontakt@jan-pieper.info>
+Date:   Fri Jun 8 16:20:22 2012 +0300
+
+    [zendframework/ZendSkeletonApplication#67] fixed path to index.phtml (was introduced by: 87bd76e8)
+
+commit bc8b1704a0184d9d6fc8cff91431756a6e543269
+Merge: 1dad749 3e11432
+Author: Rob Allen <rob@akrabat.com>
+Date:   Sat Jun 2 05:35:22 2012 -0700
+
+    Merge pull request #68 from BostjanOb/master
+    
+    Fix conditional inlcude of HTML5 shiv
+
+commit 3e11432506fcb50414f7e5edffa6462db5d3b215
+Author: Bostjan Oblak <bostjan@muha.cc>
+Date:   Sat Jun 2 14:31:15 2012 +0200
+
+    conditional include of html5 shim
+
+commit 1dad7490f942b79156041f3d12cf7f334a6050ae
+Merge: a96f2d4 a090dba
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed May 23 14:11:24 2012 -0700
+
+    Merge pull request #65 from Ocramius/hotfix/index-stat-call
+    
+    Removing unused stat call and reducing complexity of index.php
+
+commit a090dba63f68a2d71933b40be8466bb90f572e38
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Wed May 23 23:03:24 2012 +0200
+
+    Removing unused stat call and reducing complexity of index.php
+
+commit a96f2d4c0be355dc9aa48ac438308e07eb12cf18
+Merge: a1ef4bd 99c241d
+Author: Rob Allen <rob@akrabat.com>
+Date:   Wed May 23 13:05:28 2012 -0700
+
+    Merge pull request #64 from EvanDotPro/hotfix/composer-fixes
+    
+    Hotfix/composer fixes
+
+commit 99c241d18839384aa13fc9d31b677a13b8739756
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed May 23 11:51:27 2012 -0700
+
+    Update readme to not include classmap autoloader registration.
+    
+    Since we no longer include the classmap file.
+
+commit 5c3568899a360d41f28accffd56f15d5f566b7d1
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed May 23 09:59:07 2012 -0700
+
+    Remove composer.lock from .gitignore
+    
+    Per @ocramius, composer.lock is useful for deployment. We don't need it included
+    with the skeleton since it is generated on the first install, however we likely
+    do not want it to be ignored from version control, since it carries the tested
+    versions of the dependencies from development to production in the deployment
+    process.
+
+commit 6efa08bc12dfa3681612397d2885138de5adadfa
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed May 23 09:26:18 2012 -0700
+
+    Update composer.json with latest ZF2 commit for array notice fix
+
+commit 657c1a3afe8f4d2e2ad2ed0ef6d4dba9bba6dd4f
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed May 23 09:25:22 2012 -0700
+
+    Remove and gitignore composer.lock file
+
+commit a1ef4bda06a0e7178e6656cc87d54fbde1a4c195
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue May 22 14:19:30 2012 -0700
+
+    Update composer.json ZF2 reference to beta4 commit
+
+commit 22281a346aa52f18b26dcd076a34db0f870001c0
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue May 22 14:11:06 2012 -0700
+
+    Remove *local.config.php from gitignore
+
+commit b1c42fedaf24553047005d31219b29cee18f4ee5
+Merge: d5016fd 6eacc77
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue May 22 14:10:17 2012 -0700
+
+    Merge pull request #57 from Xerkus/master
+    
+    Added config/autoload/*local.php to gitignore
+
+commit d5016fda44ebd21522c52fccb75adb06b7981584
+Merge: 84c899f c57990d
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue May 22 14:09:52 2012 -0700
+
+    Merge pull request #63 from SpiffyJr/feature/remove-autoload-files
+    
+    Remove autoload files that are no longer needed.
+
+commit c57990d53c4453deeb96d297dc23f7060f2b7b30
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 16:00:59 2012 -0500
+
+    Removed unnecessary key from template_path_stack.
+
+commit 41e2229ca2f47e6c50c5e151366f770fd947bdd8
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 15:58:24 2012 -0500
+
+    Remove autoload files that are no longer needed.
+
+commit 84c899f389e3fa38f8f23a202d3c110c7c01af6c
+Merge: 2ef3641 7d713f9
+Author: Rob Allen <rob@akrabat.com>
+Date:   Tue May 22 07:29:56 2012 +0100
+
+    Merge remote-tracking branch 'SpiffyJr/feature/composer'
+
+commit 7d713f9ef1ea244754fb7a0cc8393707a503cd95
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 01:21:19 2012 -0500
+
+    Updated composer lock file.
+
+commit b2945824b0fb007874368378a27d41ddb378f063
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 01:19:43 2012 -0500
+
+    Updated README to add a Virtual Host section to installation.
+
+commit 92e5718066bb689ff9fd44f07a4d1b8d8bf24544
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 01:19:03 2012 -0500
+
+    Further clarified README.md with autoloader additions to Module.php
+
+commit 8692c2b6696f98d699398035d748d882be07cc5f
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 01:18:27 2012 -0500
+
+    Updated README to keep ordering of index.php.
+
+commit 5aeb655136c743a3b62877b5436a443353f3359e
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Tue May 22 01:12:27 2012 -0500
+
+    Updated README to go over submodule option.
+    Added composer autoloading to Skeleton and updated Module.php to reflect.
+
+commit 91e841dbd02be9e453388d70a2d6f7de8a398231
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Mon May 21 15:47:42 2012 -0500
+
+    Updated .gitignore files.
+    Updated composer.
+
+commit b512f01381ad277ba0d16d8404eb93aff260b8a6
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Sun May 20 15:12:18 2012 -0500
+
+    Added README back to vendor/
+
+commit a176a381c5482ad32c2249e6a78f0602ce13dd7c
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Sun May 20 15:10:09 2012 -0500
+
+    Updated composer.
+    Added an error to index when vendor/autoload.php could not be found.
+
+commit 96d18b1870eaf9e6332e79f286dabb0a4681f5f2
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Sun May 20 15:04:28 2012 -0500
+
+    Updated .gitignore.
+
+commit 6bbeadfd845c09d7f588a5195c503a9ba1ee210f
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Sun May 20 15:03:18 2012 -0500
+
+    Updated composer.
+    Added vendor/ dir.
+
+commit a51d56c7a2bffe523b2b7846de08156c07427631
+Merge: da5b638 2ef3641
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Sun May 20 15:01:14 2012 -0500
+
+    Merge branch 'master' into feature/composer
+    
+    Conflicts:
+    	vendor/ZendFramework
+
+commit 2ef36415f25f111c0f64445b843ec3275ae0a3c9
+Merge: 67a7133 0a877ea
+Author: Dolf Schimmel <dolfschimmel@gmail.com>
+Date:   Sun May 20 10:56:35 2012 -0700
+
+    Merge pull request #61 from EvanDotPro/hotfix/update-submodule
+    
+    Update zf2 submodule
+
+commit 0a877ea13a337d3ef9546a4f76ecc6a26ae3bca0
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun May 20 10:54:37 2012 -0700
+
+    Update zf2 submodule
+
+commit 67a71337cf0c85e43a58ca257dacdea5dfcc89ce
+Merge: 6fb31ea a021932
+Author: Evan Coury <me@evancoury.com>
+Date:   Sat May 19 11:03:26 2012 -0700
+
+    Merge remote-tracking branch 'akrabat/hotfix/default-route'
+
+commit 6fb31ea582d9632518a8db9ca369ec1fa07169f4
+Merge: 55ce886 f623398
+Author: Rob Allen <rob@akrabat.com>
+Date:   Sat May 19 18:58:36 2012 +0100
+
+    Merge remote-tracking branch 'EvanDotPro/feature/configurable-glob-paths'
+
+commit f623398a6356cb6d58936ce6d39d6446b3b6fb10
+Author: Evan Coury <me@evancoury.com>
+Date:   Sat May 19 10:46:43 2012 -0700
+
+    Add config glob pattern to application.config.php
+
+commit a0219327cf0d91dfe4de41d5ffca01e9023e189c
+Author: Rob Allen <rob@akrabat.com>
+Date:   Sat May 19 15:49:51 2012 +0100
+
+    Update route configuration so that urls of the the form index/actionName actually work.
+
+commit 55ce886a8215496a2bc7bf55512a727f450f5dd3
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri May 18 19:36:32 2012 -0700
+
+    Update ZF2 submodule
+
+commit 6eacc774395493a7b2728849d3393233bb84936d
+Author: Aleksey 'Xerkus' Khudyakov <aleksey@xerkus.pro>
+Date:   Sat May 19 11:45:08 2012 +1100
+
+    add *.local.php to config/autoload/.gitignore
+
+commit 42f4e8f666b094776998ae26e19f5613624267bf
+Merge: 32a266d 87bd76e
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri May 18 15:16:56 2012 -0700
+
+    Merge remote-tracking branch 'weierophinney/feature/view-script-resoultion'
+
+commit 87bd76e861460b64a1123560ca20279bbd902491
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Fri May 18 15:30:46 2012 -0500
+
+    [zendframework/zf2#1293] Move view template down a directory
+    
+    - View scripts for controller actions should resolve based on the module
+      namespace
+
+commit da5b638e299fc7137c6c395381000b174ec5c893
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Fri May 18 13:19:38 2012 -0500
+
+    Updated composer files.
+
+commit 81c165f105184cb6ab0d24f8ebafa744115fcb23
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Fri May 18 13:17:15 2012 -0500
+
+    Removing merge files of index.php that snuck in.
+
+commit d03f9a076b5ce119d1d02e20fe206a542387510c
+Merge: c994772 32a266d
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Fri May 18 13:07:27 2012 -0500
+
+    Merge branch 'master' into feature/composer
+    
+    Conflicts:
+    	public/index.php
+    	vendor/ZendFramework
+
+commit c994772feb6fe02f60e7b875be37de9c64415882
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Fri May 18 09:26:34 2012 -0500
+
+    Added composer.lock to git.
+    Added vendor/ to .gitignore, this directory is created by composer.
+    Modified index.php to skip the autoloader factory.
+
+commit 32a266d49873680bf114e072b93030e3b500ae08
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu May 17 14:09:01 2012 -0700
+
+    Point ZF2 submodule path back to canonical.
+
+commit 5262dea07089a67e93217bf7377d16872e570703
+Merge: 42c37ba 1917377
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu May 17 14:06:23 2012 -0700
+
+    Merge remote-tracking branch 'weierophinney/feature/mvc-servicemanager-refactor'
+    
+    Conflicts:
+    	vendor/ZendFramework
+
+commit 7622ef60416f9afe7336eb60e966e388541f6dae
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Thu May 17 10:55:45 2012 -0500
+
+    Added vendor/.gitignore to ignore composer install files.
+    Removed the composer.phar download line from README as this file is now shipped directly.
+
+commit 522f331570ed08b06e86af161b9de655a7408d5d
+Author: Kyle Spraggs <theman@spiffyjr.me>
+Date:   Thu May 17 10:53:57 2012 -0500
+
+    Initial composer commit.
+
+commit 1917377993113ece3619d55135f5b38b2cb2cc35
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Wed May 16 11:45:29 2012 -0500
+
+    [zen-33] Removed interfaces from Module
+    
+    - Interfaces no longer need to be implemented; duck-typing is allowed
+
+commit de8147bdf03136248afc2bc6fd04babc5529f047
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue May 15 16:45:52 2012 -0500
+
+    [zen-33] Updated to new controller scoped container
+    
+    - Minor change in configuration
+
+commit b2745188a1e20b47a37350018dd2bf7c0d14c3c5
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue May 15 13:36:02 2012 -0500
+
+    [zen-33] Update to add doctype configuration
+
+commit 6e851dd5547bde0f6c2e3eb70dd74782626f0c5d
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue May 15 12:24:12 2012 -0500
+
+    [zen-33] Remove unused configuration
+
+commit b0c3027e5d74dc8608679e1d6f15a1753eecda2a
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue May 15 12:20:17 2012 -0500
+
+    [zen-33] Updated config globbing
+    
+    - Removed ".config" segment from application configuration
+
+commit 42c37ba051bc50e8795a545b86a492f79d95244b
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue May 15 09:25:31 2012 -0700
+
+    Update ZF2 submodule to latest master
+
+commit 693a104e3161506339d34285c8eeef6bd2581b54
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon May 14 17:24:39 2012 -0500
+
+    Updated to latest on weierophinney/feature/mvc-sm-viewmanager
+
+commit 52f94fcc7087bb4b4134a0400ddedeba8c75175f
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon May 14 12:31:13 2012 -0500
+
+    Cleanup in preparation for PR
+    
+    - Updated vendor/ZendFramework to a6f4d09 of
+      weierophinney/feature/mvc-sm-viewmanager
+    - Updated configuration to introduce "router" as base key for router
+      configuration
+    - Removed unnecessary artifacts from Application\Module
+
+commit fe41037cd7eec32a9f2b8bb0a84b80bc7f6def65
+Author: Ralph Schindler <ralphschindler@yahoo.com>
+Date:   Thu May 10 14:05:42 2012 -0500
+
+    Initial wiring of ServiceManager over DI for MVC
+
+commit e6e2f227eb449fc7cd1028974d16e013dfe5d2a5
+Merge: 76eb647 a183c81
+Author: Rob Allen <rob@akrabat.com>
+Date:   Tue May 8 19:32:17 2012 +0100
+
+    Merge remote-tracking branch 'EvanDotPro/hotfix/zf2-api-updates'
+
+commit a183c817892552e4333e2b745e8e9f21aa615bc4
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon May 7 13:51:12 2012 -0700
+
+    Update ZF2 submodule
+
+commit 7889d92c1550c6122119815ad673d186fee4f415
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon May 7 13:43:50 2012 -0700
+
+    Updates for ZF2 master changes
+
+commit 76eb64754b795c5062373988a19cfdd46a47a4a7
+Merge: d1ddb54 632641e
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Apr 23 13:17:22 2012 -0700
+
+    Merge remote-tracking branch 'weierophinney/hotfix/event-manager-shared'
+
+commit 632641e8865dd6318ccbadd300961550e2e017cf
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Apr 23 15:15:14 2012 -0500
+
+    Updated ZF2 submodule to latest master (bd991a93)
+
+commit 7a482c8f4e56f572888c780da6c1912facd26850
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Apr 23 14:40:13 2012 -0500
+
+    Fixes to enable and enforce SharedEventManager instance
+    
+    - Instead of using StaticEventManager, pull shared collection for event manager
+      in module manager
+    - Instantiate and injected SharedEventManager in index.php (we can refine and
+      abstract this later)
+
+commit bae3ee6daf0da0070f707f66bcdbc844a9ae5b2b
+Merge: 312124e 0dabb73
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Apr 3 10:55:44 2012 -0700
+
+    Merge pull request #47 from Freeaqingme/gitignore
+    
+    Adding .gitignore
+
+commit 312124ee56aadd3283d245b35b50cce48043519f
+Merge: b4b04cd 7259794
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Apr 3 10:26:09 2012 -0700
+
+    Merge pull request #48 from Freeaqingme/externalLinks
+    
+    Opening external links in new tabs/windows
+
+commit d1ddb54dca0b57a721c0135b1285480c25595630
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Mar 30 10:17:24 2012 -0700
+
+    Update glob() for autoload config files
+    
+    Per a discussion on IRC with @weierophinney:
+    
+    - requiring ".config" in the filenames is redundant as they live under the
+    config/ tree
+    - "local" and "global" should be optional
+    
+    This leaves us with simply config/autoload/*.php.
+
+commit 0dabb73fc12b4151529a42990b818c4bcc4c4573
+Author: Dolf Schimmel (Freeaqingme) <dolfschimmel@gmail.com>
+Date:   Sat Mar 24 17:30:19 2012 +0100
+
+    Adding .gitignore
+
+commit 7259794478e18aff2752acf1685d686940e4a110
+Author: Dolf Schimmel (Freeaqingme) <dolfschimmel@gmail.com>
+Date:   Sat Mar 24 17:29:35 2012 +0100
+
+    Opening external links in new tabs/windows
+
+commit b4b04cda07b21c9fe0064dac51fe39486a29906b
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Mar 7 17:34:38 2012 -0700
+
+    Add optional config filename prefix
+
+commit 05c49a66c421b002862f5f426923b2752dd75613
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Mar 7 15:07:40 2012 -0700
+
+    Reverting to config globbing practice decided in meeting
+    
+    See http://framework.zend.com/wiki/display/ZFDEV2/2011-12-07+Meeting+Log
+
+commit 5f74cfff0bae0d568803d58858a610b0afbff7d3
+Merge: bbce4c2 9ce6d44
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Mar 7 02:32:53 2012 -0700
+
+    Merge remote-tracking branch 'Xerkus/hotfix/glob-path'
+
+commit 9ce6d44b5bf0447aae3831c9a7aeed140a1b6f4a
+Author: Aleksey 'Xerkus' Khudyakov <aleksey@xerkus.pro>
+Date:   Wed Mar 7 19:37:10 2012 +1100
+
+    added glob path for modules dropin configs, added pattern for gitignored local.config.php
+    so it will always load regardless of env settings.
+
+commit bbce4c2002165679fdf10ad3b1e486c5a9ed91a4
+Merge: afc15e7 084f05b
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Mar 7 00:45:14 2012 -0700
+
+    Merge remote-tracking branch 'ocramius/move-view-helpers-setup-to-module-config'
+
+commit afc15e7748b5efce282f53f84bebbaa0db43f5b7
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Mar 7 00:34:48 2012 -0700
+
+    Add viewport meta tag for smart phone scaling
+    
+    This somehow got removed.
+
+commit 1769d7770274c0adada6de6c6d37348b19beb317
+Merge: aaaa2b6 8326bdc
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Mar 6 05:43:14 2012 -0800
+
+    Merge pull request #39 from gabriel403/master
+    
+    Added env check and changed glob line
+
+commit 084f05b1578fbdb800518953ef3b1705c68676aa
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Sun Mar 4 15:18:12 2012 +0100
+
+    Removing Zend\Mvc\Router\RouteStack instance definition (already defined in Zend\Mvc\Bootstrap
+
+commit 8326bdcb7311bb5bddb4b253334e46e15a48d98c
+Author: Gabriel Baker <gabriel@autonomicpilot.co.uk>
+Date:   Sat Mar 3 18:27:33 2012 +0000
+
+    Changed the env variable to match the files in config/autoload/ and to facilitate local changes pulled in by index.php glob config
+
+commit 1cd0796c1d3594dee8a4c0f3e68279a75c12f62a
+Author: Gabriel Baker <gabriel@autonomicpilot.co.uk>
+Date:   Sat Mar 3 11:07:21 2012 +0000
+
+    Fixed messed up glob config line
+
+commit 25971d5c84aa8bc53925d4e30f4e18401d7762fe
+Author: Gabriel Baker <gabriel@autonomicpilot.co.uk>
+Date:   Fri Mar 2 23:31:42 2012 +0000
+
+    Update public/index.php
+
+commit 6a22421e7b586d864793d0a23efe63e6c7c49a4d
+Author: Gabriel Baker <gabriel@autonomicpilot.co.uk>
+Date:   Fri Mar 2 22:41:39 2012 +0000
+
+    Introduced the environment check for application_env
+    and changed the glob line for config files
+
+commit 31401ee59c030a46693cfde20323abd4066f9928
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Fri Mar 2 23:31:16 2012 +0100
+
+    Moving Url and Doctype view helpers setup to module configuration. Also, adding various comments on the configuration to make it more explicit as it importance increases
+
+commit aaaa2b62988e4b84e60288f60974ef9572ea0ff4
+Merge: 2076203 35b684c
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Mar 2 13:33:02 2012 -0800
+
+    Merge pull request #37 from gabriel403/master
+    
+    Removed error controller
+
+commit 35b684cf5bb0beede444a848a4a269134435ca64
+Author: Gabriel Baker <gabriel@autonomicpilot.co.uk>
+Date:   Fri Mar 2 21:21:24 2012 +0000
+
+    removed error controller bits
+
+commit 20762032d6f0a465b462cc313e92f7919bd57414
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Mar 2 13:10:48 2012 -0700
+
+    Update zf2 submodule for beta3
+
+commit 42e3d8113b4244cd7f0c5f950ca33950d2babdfb
+Merge: 057c6c9 002d079
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Mar 2 13:05:20 2012 -0700
+
+    Merge remote-tracking branch 'ocramius/better-exception-information'
+
+commit 002d0790bb7ff5ec4439d286562502566cabac54
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Wed Feb 29 23:33:06 2012 +0100
+
+    Better overview on previous exceptions and more exception details (file name, line number, exception type)
+
+commit 057c6c91ebd8d0105fee9521df6023e89d08a4c8
+Author: Michiel Staessen <staessenmichiel@gmail.com>
+Date:   Wed Feb 29 18:20:54 2012 +0100
+
+    Removed obsolete lines.
+
+commit 75050d4210a57103da956df4d0bd95e66d5cbf25
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 29 07:43:57 2012 -0700
+
+    Update ZF2 submodule to latest master
+
+commit 9944713b402330533fa56f31cc8391c84a90c4c8
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 29 07:36:47 2012 -0700
+
+    Remove date('Y') call in layout
+    
+    Replaced with static year. For some reason the date() function in PHP is
+    shockingly slow (3+ms on an i5) which is like 8% of the runtime in an optimized
+    benchmark.
+
+commit 0974fe00ef73e1e69119f8a69211469f1f923ab6
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 29 07:32:26 2012 -0700
+
+    Remove usage of raw() view helper in layout
+
+commit b00dcd1d720f514d21b22fc6512e2038dcc7a9dd
+Merge: 62d013d 52b8852
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 29 07:31:33 2012 -0700
+
+    Merge remote-tracking branch 'weierophinney/feature/view-layer'
+
+commit 52b88520f430185d0a40076fdf5a4c33aa62602d
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 28 12:06:10 2012 -0600
+
+    Updates to 404 handling
+    
+    - Updated configuration settings
+    - Updated 404 handler to display controller and exception, if present
+    - Do not merge until all outstanding view layer PRs are merged on ZF2
+      master
+
+commit 9f7663fccceeeb7d3b00f6ee32cc5da70d7190c0
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 28 00:32:30 2012 -0600
+
+    Updated to latest view-layer changes
+    
+    - Added configuration for TemplateMapResolver
+    - Added configuration for displayNotFoundReason
+    - Updated error/404 template to display the 404 reason, if enabled.
+    - Please merge only after https://github.com/zendframework/zf2/pull/851
+
+commit 62d013d46f5f9396399704319d66131afb273894
+Author: Evan Coury <me@evancoury.com>
+Date:   Sat Feb 25 05:55:56 2012 -0700
+
+    Add viewport meta tag for smart phone scaling
+
+commit bae86add7ee83305126da5681595e78ee3aa4502
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 22 12:46:48 2012 -0700
+
+    Update ZF2 submodule to canonical repo
+
+commit f7631d158722c9adb85f5b0321d017238ad1576a
+Merge: c8dbfa2 c78a500
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 22 12:45:03 2012 -0700
+
+    Merge remote-tracking branch 'weierophinney/feature/view-layer'
+
+commit c78a5009e9a7244996382f8841335b3000c20bcf
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Wed Feb 22 10:45:50 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev ab750ae of weierophinney/feature/view-layer
+
+commit 31c281597e3389be212cdd28e1306dd16cd4b2fe
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 15:06:40 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 332d169 of weierophinney/feature/view-layer
+
+commit 3186a260b2af6bfaa0c9fad099387407bdd0ec13
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 14:13:58 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 80d3f32 of weierophinney/feature/view-layer
+
+commit 50b7b53de0fc810d2e7eacfd2d0031d8b163ca48
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 13:29:31 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev ef1e8b1 of weierophinney/feature/view-layer
+
+commit 5245b8954b9d1bf04d370bf3a2d715a40d8f7825
+Author: David Hazel <dhazel@gmail.com>
+Date:   Fri Feb 17 07:51:27 2012 -0800
+
+    Moved the RouteStack di class definition into the module config.
+    
+    The definition originally was in Mvc\Bootstrap::setLocator.
+    
+    It would be better to leave the definition in Bootstrap, and simply set
+    a "preference" value in the config, but the definition *appears* to
+    override the preference settings.
+
+commit 155cc6275a3c57a9b68bb7a6d518968d5f5383f3
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 12:32:11 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 30a545b of weierophinney/feature/view-layer
+
+commit f9619841de270139bc4e50b740126d27d6fb61e1
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 10:58:20 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 1087833 of weierophinney/feature/view-layer
+
+commit 3255e4b01f8b83b69279f4e6eab4a9fb9f466125
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 08:59:03 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev f1a3ddf of weierophinney/feature/view-layer
+
+commit b388e5f7485a51c31a61da64b9087093ebb58971
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 21 08:55:57 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 3baed8c of weierophinney/feature/view-layer
+
+commit 3764fb7aa2910962c5817fb766b48878213d3008
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 20 22:29:09 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev da0ff71 of weierophinney/feature/view-layer
+
+commit 8a5df03af81587c14d9a9dfc6731a754f02dcabf
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 20 21:46:58 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev e23c369 of weierophinney/feature/view-layer
+
+commit 628eff1edba6f325c33167f51be15e307e98d5df
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Fri Feb 17 12:38:16 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 84eea97 of weierophinney/feature/view-layer
+
+commit d5c780401ab192b99f10e225d35ba9940af7557a
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Feb 16 16:33:49 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 77430c4 of weierophinney/feature/view-layer
+
+commit c8dbfa288e227c7b8c031a95362a54bf253f5842
+Merge: 38ec9cd dd2c826
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 16 14:27:40 2012 -0800
+
+    Merge pull request #30 from RWOverdijk/hotfix/ZF2-166
+    
+    Removed redundant argument being passed
+
+commit dd2c8267cbb71f8df1463aa4d1aa352f6ffe2913
+Author: Roberto Wesley Overdijk <r.w.overdijk@gmail.com>
+Date:   Thu Feb 16 20:30:52 2012 +0100
+
+    Removed redundant argument being passed
+
+commit 3c4ab7300f1e59f4c7d81bc17fabb55c798ae4fd
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Wed Feb 15 11:10:58 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev df03479 of weierophinney/feature/view-layer
+
+commit 2000f95ea004e3604ce2a7cd8ec655e89d03d95b
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Wed Feb 15 08:43:05 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev ff26301 of weierophinney/feature/view-layer
+
+commit 297554e10f74e2a723e066528605ca84e5deb4b8
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 14 16:55:35 2012 -0600
+
+    [#1] Added AggregateResolver
+    
+    - Updated ZF2 to rev db6a6e3
+    - Modified configuration to use AggregateResolver
+
+commit 079fb9d9e55b689390fd9f87a2eb9b1882319793
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 14 15:39:46 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 878cb78
+
+commit 7c82bb577ee79e07a2affc1488fc53015ae27236
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 14 15:17:39 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to rev 34bc3d739
+
+commit 4abd32856468ec8e0b9a6e3585619bfd17a7fc8e
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 14 14:13:15 2012 -0600
+
+    Updated vendor/ZendFramework
+    
+    - Updated to include ability to cast assoc arrays to ViewModels
+
+commit be1635ef94b77b174f4f66ff38795feee87d02ff
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 14 13:22:49 2012 -0600
+
+    Updated feature/view-layer
+    
+    - Includes fix for routing failures
+
+commit 132c918857c79a998fb100cb9447a18d1f36ff7b
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Feb 14 11:15:14 2012 -0600
+
+    Fixes for helper loader/broker configuration
+    
+    - Removed unneeded aliases
+    - Removed obsolete classmap entries
+    - Updated ZF2 library to latest feature/view-layer
+
+commit f5ef35d58e38460df8c11683f2d442df795a76b4
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 13 22:31:56 2012 -0600
+
+    Updated ZF feature/view-layer branch
+    
+    - Branch contained fixes for exception/no route (404) reporting
+
+commit a181bb77ea92727d8343cc956acb0c1e517a0d9d
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 13 22:29:34 2012 -0600
+
+    Updated configuration to follow view-layer
+    
+    - names of templates should not include file suffix
+    - corrected parameter names for exception, no route strategies
+
+commit 8511c4ef382e917cadc559b30214610500bf3cae
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 13 21:56:59 2012 -0600
+
+    Simplified TemplatePathStack config
+    
+    - Since bootstrap now contains configuration for template path stack,
+      can simply path "paths" parameter
+
+commit 1529e762575bd0aa659c2fa23b1fab9122bb603d
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 13 21:55:03 2012 -0600
+
+    Updated ZF to latest feature/view-layer changes
+
+commit 5185f12b1a73a9fd50dbd7abbc5b902bc63304fb
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Mon Feb 13 06:53:48 2012 -0600
+
+    Repointed ZF vendor to weierophinney fork
+    
+    - due to feature/view-layer being only on that fork
+
+commit 82e1583b730b78b0d14e76956ef3c99f65eaf12e
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Sun Feb 12 19:26:59 2012 -0600
+
+    Working view layer integration
+    
+    - Updated ZF submodule to c85c45a4 of weierophinney/feature/view-layer
+    - Updated configuration to utilize new view layer
+    - Updated controllers to return View Models
+    - Updated Application\Module to only configure necessary view helpers
+    - Removed Application\View\Listener; no longer necessary
+
+commit 993050b94610e5b6a70bb17f22e920f1dbc7177a
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Sun Feb 12 18:47:00 2012 -0600
+
+    Modified vendor/ZendFramework to track weierophinney/feature/view-layer
+
+commit 38ec9cdb830edef59f5695db1d242b5ea307223b
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Feb 10 19:53:39 2012 -0700
+
+    Fix hover css colors for buttons
+
+commit bd9b66c20144acdf05dd05c543ac60b27312ab6b
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Feb 10 19:44:18 2012 -0700
+
+    Update button styles and switched to "ZF green"
+
+commit 90a65ccba7287c8a83a4abfe9c3d3393797519cc
+Merge: 88ff526 0a995de
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 9 13:20:27 2012 -0700
+
+    Merge remote-tracking branch 'ocramius/mvc-router-from-locator'
+
+commit 88ff526f0ec18f953175c08a928557abfed35b2b
+Merge: f15f239 465b761
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 9 13:20:05 2012 -0700
+
+    Merge branch 'feature/twitter-bootstrap-2'
+
+commit f15f239b00a4cf80d01f3a09809ee4dcbed76c33
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 9 13:06:13 2012 -0700
+
+    Update zf2 submodule
+
+commit 465b76128948d2c30285b9aba1dbc020e14a7d69
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 9 11:20:52 2012 -0700
+
+    Update layout to use Twitter Bootstrap 2.0.0
+
+commit 8351b5b435eb5497090335f776ad65b4e8a4f338
+Merge: b07e6f7 0f83d03
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 9 09:58:59 2012 -0800
+
+    Merge pull request #27 from steffendietz/master
+    
+    Using getBasePath() instead of getBaseUrl() to determine the basePath
+
+commit b07e6f79a5d57fb0f81028786217146e45285d11
+Merge: 53dbcf2 1bcfe03
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Feb 9 09:52:18 2012 -0800
+
+    Merge pull request #25 from troymccabe/master
+    
+    Typo in documentation for directory
+
+commit 0f83d0335821ab9b77954f881b59fe7f0a74ad91
+Author: Steffen Dietz <steffo.dietz@googlemail.com>
+Date:   Thu Feb 9 15:33:22 2012 +0100
+
+    Using getBasePath() instead of getBaseUrl() to detect basePath.
+
+commit 53dbcf294c07b3a9ce4f28402e7f2a2f853657b6
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Feb 8 14:09:02 2012 -0700
+
+    Update ZF2 submodule
+
+commit 1bcfe0395dc5f383207e6eeafb0f23988564be1b
+Author: Troy McCabe <troy@dydro.com>
+Date:   Sat Feb 4 11:05:46 2012 -0600
+
+    Fixing typo
+
+commit 0a995deccf91a47ffd321984b6b2b70f03e8cd28
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Fri Feb 3 01:25:43 2012 +0100
+
+    Fixing configuration according with changes done to router initializationThis change just moves router configuration to instance configuration of the router itself. The change is necessary to allow the router to be injected into other instances of the DiC and to eventually switch the router type to a custom one with own dependencies and eventually completely unaware of the default Zend\Mvc\Router\Http\TreeRouteStack. These changes are related to https://github.com/Ocramius/zf2/compare/zendframework%3Amaster...mvc-router-from-locator
+
+commit fc842fa8399e83f667574c19eecb701de22dca3a
+Merge: 4f46b21 ab145e6
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Jan 29 19:37:29 2012 -0700
+
+    Merge remote-tracking branch 'akrabat/feature/layout-consolidation'
+
+commit ab145e65efd803ce0fc2e3264d80b74217f67d97
+Author: Rob Allen <rob@akrabat.com>
+Date:   Sun Jan 29 14:44:32 2012 +0000
+
+    Move some of the view related code from the Module class to the layout view script
+
+commit 4f46b21286c41fb071525c6c059dcf17a606a1de
+Merge: 55d1ab3 628a15d
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Jan 24 09:24:04 2012 -0800
+
+    Merge pull request #21 from akrabat/plugin-broker
+    
+    Inject the plugin loader into Zend\Mvc\Controller\PluginBroker by default
+
+commit 628a15da148c720ea548b5e4a01135a22d6b56aa
+Author: Rob Allen <rob@akrabat.com>
+Date:   Tue Jan 24 17:06:58 2012 +0000
+
+    Inject the plugin loader into Zend\Mvc\Controller\PluginBroker by default to simplify injecting controller plugins
+
+commit 55d1ab3ad897ffca943fa53d7cccb17faeb2aa4c
+Merge: e5ab1d1 d4abc30
+Author: Ryan Mauger <ryan@rmauger.co.uk>
+Date:   Wed Jan 18 00:46:02 2012 -0800
+
+    Merge pull request #19 from Danielss89/master
+    
+    Moved javascript to after css.
+
+commit e5ab1d13aa67aa35a8eb45a0b4a5e4532974af47
+Merge: 3c043eb 8ad02d5
+Author: Ryan Mauger <ryan@rmauger.co.uk>
+Date:   Wed Jan 18 00:45:41 2012 -0800
+
+    Merge pull request #20 from akrabat/hotfix/di-for-controller-plugin
+    
+    Inject the PluginBroker into the ActionController for controller plugins
+
+commit 8ad02d5344b78a9b0470c83743ea3900b0425b75
+Author: Rob Allen <rob@akrabat.com>
+Date:   Tue Jan 17 21:28:56 2012 +0000
+
+    Inject the PluginBroker into the ActionController so that we pick up any module's controller plugins that they have injected into it. By injecting into ActionController, all controllers that extend it will automatically pick up this injection without having to inject themselves which of course saves a lot of typing for developers and stops them wondering why a given plugin isn't working in a particular controller\!
+
+commit d4abc301cd69bd1d22e7a3a5f15e5867d9cd8435
+Author: Danielss89 <danielss89@gmail.com>
+Date:   Tue Jan 17 21:14:58 2012 +0100
+
+    Moved javascript down, after css. Best practice.
+
+commit 3c043eb2ee8298e2bdb455591a8d17c410947b7c
+Merge: f8de080 20820c4
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Jan 13 06:11:49 2012 -0800
+
+    Merge pull request #18 from Xerkus/master
+    
+    Changed doctype to appropriate one
+
+commit 20820c4aa92f9272b7c61aa578b331e7b10a829f
+Author: Aleksey 'Xerkus' Khudyakov <aleksey@xerkus.pro>
+Date:   Fri Jan 13 20:37:27 2012 +1100
+
+    Set doctype as HTML5
+
+commit f8de0809bda08634473eb14207a817b362b32f26
+Merge: ac01d71 a3499c5
+Author: Ryan Mauger <ryan@rmauger.co.uk>
+Date:   Thu Jan 12 11:41:39 2012 -0800
+
+    Merge pull request #15 from Maxell/master
+    
+    Remove unused variables
+
+commit ac01d71525c3e0d68d56ab4bf150d9d73d550737
+Merge: 6288ec4 c5554b6
+Author: Ryan Mauger <ryan@rmauger.co.uk>
+Date:   Thu Jan 12 11:40:04 2012 -0800
+
+    Merge pull request #17 from Thinkscape/master
+    
+    Rename "views" and "layouts" to singular form.
+
+commit c5554b6b41da12c4e98cbffae3ee430a59bc36be
+Author: Thinkscape <abodera@gmail.com>
+Date:   Wed Jan 11 14:03:08 2012 +0100
+
+    Rename "views" and "layouts" to singular form.
+    
+    Directory names should be in singular form whenever possible.
+
+commit a3499c5efbdf8b7be69aab4c756588d722ecf4ef
+Author: Romke van Kraaij <r.vankraaij@gmail.com>
+Date:   Tue Jan 10 20:08:17 2012 +0100
+
+    Remove unused variables
+
+commit 6288ec421a933d977be1361070627e7b3cf39267
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Jan 8 16:46:33 2012 -0700
+
+    Use getBaseUrl() instead of detectBaseUrl()
+    
+    Pointed out by @Swaagie, detectBaseUrl() doesn't cache to a class property per
+    request, whereas getBaseUrl() is a wrapper for detectBaseUrl() which does cache
+    per instance of the request.
+
+commit 438f306ad65f6e1beeba1a6393ee757442562463
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Jan 8 16:29:42 2012 -0700
+
+    Update ZF2 submodule
+
+commit fd9fa76220199fa804876223968dc473bd360179
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Dec 22 07:10:20 2011 -0700
+
+    s/location/locator, and update $di variable in Application's Module.php
+
+commit bb098901d01832d5b2c5e3e7abbd604adcaa4d04
+Merge: 6f0edf1 26b8423
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Dec 22 07:07:33 2011 -0700
+
+    Merge remote-tracking branch 'BostjanOb/patch-1' into bostjan-patch
+
+commit 26b842365013594ee6c41c1c83c3b07adc9f753c
+Author: BostjanOb <bostjan@muha.cc>
+Date:   Thu Dec 22 14:14:29 2011 +0100
+
+    Bug in var naming.
+
+commit 6f0edf13b0c344d270841f17ed455fc144b2d0df
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Dec 20 15:52:45 2011 -0700
+
+    Update ZF2 submodule to release-2.0.0beta2
+
+commit 1fb622a6ba92b12fa2b74f41c16945523063fca0
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Dec 20 15:47:30 2011 -0700
+
+    Aethetic improvements and marketing jargon
+    
+    - Utilize Twitter Bootstrap
+    - Add favicon
+    - CSS / JSS included locally for offline functionality
+    - Add helpful text and links for new users
+
+commit 2d4c24e88b0696fd52d63c29fc7cec8d0c584184
+Author: Martin Hujer <mhujer@gmail.com>
+Date:   Mon Dec 19 17:42:43 2011 +0100
+
+    Remove non-existing PageController
+
+commit e34fad1acdf15d286d8ab7401a5c40c7ead46d15
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Dec 18 08:00:32 2011 -0700
+
+    Update ZF2 submodule to 9ae9a188
+
+commit ef4bab29af1e4dd5aac3f87f1c3d8391808d514d
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Dec 18 07:56:38 2011 -0700
+
+    Update view listener to pass vars to layout
+    
+    - Enable display exceptions by defualt
+    - Cannot pass a variable called 'content' to layout
+
+commit 491bd52235289a2eeddc865797b338b95e6269be
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Dec 18 07:54:05 2011 -0700
+
+    Check for ZF2_PATH env var when including ZF2 AutoloaderFactory
+
+commit 8d1e4966f765bc57ab8d39f60759ef109d4ce97d
+Merge: 226bfea f218141
+Author: Evan Coury <me@evancoury.com>
+Date:   Sat Dec 10 10:13:20 2011 -0700
+
+    Merge remote-tracking branch 'mhujer/error-page-impromevent'
+
+commit f218141a93186c8946ed9fdaa61ebe3e6d5ff431
+Author: Martin Hujer <mhujer@gmail.com>
+Date:   Sat Dec 10 17:28:28 2011 +0100
+
+    Show exception's message on error page
+
+commit a306ef38e0d2eadf168b44e0ca4810148d2dc126
+Author: Martin Hujer <mhujer@gmail.com>
+Date:   Sat Dec 10 17:23:59 2011 +0100
+
+    Clean headings outline
+
+commit 226bfea033c34d47ca7e48c17a76c1a906b64885
+Merge: e5faa8e 8614a9a
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Dec 9 22:28:19 2011 -0700
+
+    Merge remote-tracking branch 'guilhermeblanco/patch-1'
+
+commit 8614a9a290239aed7b5819033da30418503748cf
+Author: Guilherme Blanco <guilhermeblanco@gmail.com>
+Date:   Sat Dec 10 00:15:52 2011 -0500
+
+    404 render must be called AFTER layout. The current values are wrong (layout is never called), which in some weird situations may lead to $e->getResponse() return NULL.
+
+commit e5faa8e9a66a75ce7a9fe4d009feef3cf61c8395
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Dec 9 13:20:25 2011 -0700
+
+    Organize lines in index.php a bit better
+
+commit ba938de7a9a8c2e896551f787589a63075863f54
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Dec 9 13:16:43 2011 -0700
+
+    Update for new module event stuff and update zf2 submodule
+    
+    Also adds the proposed chdir() change per the Dec 7th meeting.
+
+commit 3de08a39d396270171d69edd2f7b956869edbf8b
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Dec 9 07:09:56 2011 -0700
+
+    Routine update of ZF2 submodule
+    
+    - No actual changes to the skeleton itself
+
+commit a4621753e75915d1b59f6d9793d57dbb443518f4
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Dec 7 14:22:38 2011 -0700
+
+    Remove references to application environment.
+    
+    - Updated ZF2 submodule
+    - Added local dist config file, gitignored non-dist counterpart
+    - Added default global config file
+    - Some comments explaining the purpose of the files
+
+commit 0348eaad3bad9e7525d976529b41ebb0c9f29681
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Thu Nov 24 00:07:16 2011 +0100
+
+    Stronger typing on error views to avoid E_FATAL and hide exceptions if display_exceptions is not set to true
+
+commit eeb378172fcd703006d14ee9b5b01fa939de66a1
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Wed Nov 23 23:56:59 2011 +0100
+
+    Adding setting for exceptions visibility in error views
+
+commit 2d47e39b8075d7bf24397f11a0056afe8c417aa1
+Author: Marco Pivetta <ocramius@gmail.com>
+Date:   Wed Nov 23 23:53:11 2011 +0100
+
+    Moving pages/404.phtml rendering (in case of 404 errors) to error/404.phtml
+
+commit 903243da98b55f2ccf882ee8170926ae4d48ba49
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Nov 22 14:36:59 2011 -0700
+
+    Remove gitignore files
+
+commit 0e2b8fbf23bb940160b778ef4ca051e6d8b4e46a
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Nov 22 10:44:47 2011 -0700
+
+    Fix .gitignore so ZF2 submodule works. Fixes issue #6
+
+commit fb614285fa9223fd3a9b2a1c6a7c694276c4b0d4
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Nov 21 18:23:47 2011 -0700
+
+    s/configs/config in Application module
+
+commit 069c369af0d167f7bc1b359468f3136d50429747
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Nov 21 13:27:58 2011 -0700
+
+    Convert to singular path names and move ZF2 submodule
+    
+    - s/configs/config
+    - s/vendors/vendor
+    - moved library/ZendFramework to vendor/ZendFramework, got rid of library/
+    - updated zf2 submodule
+    - added config/autoload path with readme explaining the purpose
+    - set up to glob for config/autoload/*.config.php
+
+commit 5d4554bae3d6c3d71386f66821a4a48b23d01358
+Author: Ryan Mauger <ryan@rmauger.co.uk>
+Date:   Sat Nov 19 16:39:14 2011 +0000
+
+    Added headLink, headMeta, and headScript to layout for added flexibility
+
+commit 07f9a36fe6140f21229a07b3f1342edbe7cd8da1
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Nov 18 17:18:38 2011 -0700
+
+    Remove unused bootstrap_class config value from Application module
+
+commit 74baee4e631ade81b0170cd0cfe73fe31e94b96b
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Nov 18 10:20:35 2011 -0700
+
+    Updated ZF2 submodule to point to GitHub as new canonical repo
+
+commit 80dc94e6c6b4cd2742cc059c8e95dca8fb6717f6
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Nov 17 16:05:57 2011 -0700
+
+    Pass exception on render404() method of view listener
+
+commit c5d148536e8e2796926db08ed775c695fad69267
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Nov 17 15:48:22 2011 -0700
+
+    Updated ZF2 submodule to latest master, show exceptions on 404 error
+
+commit a4421c44d9026edfe0c462f8e13cc8234efa401a
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Nov 14 10:32:14 2011 -0700
+
+    Updated for new event-driven module manager
+    
+    - ZF2 submodule updated
+    - Application module now uses getParam('config')
+    - Application module now makes use of AutoloaderProvider interface
+    - index.php updated to new module manager interface
+
+commit 75a641b0a6c33d1a982f34143bfe955fdaa5c6d1
+Author: Evan Coury <me@evancoury.com>
+Date:   Sat Nov 12 11:10:53 2011 -0700
+
+    Update ZF2 submodule
+
+commit 3c3b45bb262342f6e20e876ea1e87595667c15dd
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Nov 10 20:36:14 2011 -0700
+
+    Add vendors/ directory for third-party modules
+    
+    - The odd-looking .gitignore is so that the README file is included in the
+    repository, but if the user installs some third part modules, they won't
+    accidentally be added to the skeleton git repository. We do the same thing in
+    the modules/ directory.
+    - Added readme explaining that vendors/ is for third-party modules
+
+commit bb0d0604ab23ce6ef620755f8923ede273b04267
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Nov 8 13:38:46 2011 -0700
+
+    Remove $env parameter from initAutoloader method
+
+commit bf2802131336d687f3a773fbdb5c077948e28161
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Nov 8 07:19:19 2011 -0700
+
+    Update classmap
+
+commit 4c1704774b146f5827fdf4adcebc7940e9bf07c4
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Nov 8 07:11:39 2011 -0700
+
+    Updated for ZF changeges
+    
+    - Module::getConfig() now returns a simple array, not a config object
+    - View listener returns a PhpEnvironment\Response (sendable) upon error
+
+commit 643f3aed7ead44ef22c9111826de34aae3eef566
+Author: Evan Coury <me@evancoury.com>
+Date:   Tue Nov 8 07:01:51 2011 -0700
+
+    Updated ZF2 submodule and changed to segment route
+    
+    - Switch to segment route instead of regex route
+    - Remove custom URL helper, using ZF-proivded one now
+
+commit c98ce242fea38efa5abfa940202b55747fbed7a9
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Oct 21 19:05:06 2011 -0700
+
+    Various clean up
+    
+    - config returns array which index.php converts to zend\config\config
+    - Application module initAutoloader improved
+    - Application classmap updated
+
+commit 5468d07acc0b01f413540c0178985870bbecc43d
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Oct 17 13:25:18 2011 -0700
+
+    Update ZF2 submodule to release-2.0.0beta1 tag
+
+commit d43b616060673ff50933311b813bf93fd6e8d96e
+Author: Rob Allen <rob@akrabat.com>
+Date:   Sun Oct 16 20:14:18 2011 +0100
+
+    add library to the include path, so we can put ZF2's Zend folder directly in library
+
+commit 8124494a79e57910d1d2d0b0baca9ecac33aeda4
+Author: Evan Coury <me@evancoury.com>
+Date:   Sat Oct 15 07:17:00 2011 -0700
+
+    Updated ZF2 submodule
+
+commit b38a3586fd6b4b73640daf12ed4222d246823ff0
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Fri Oct 14 17:02:43 2011 -0500
+
+    Updated to use Zend\Mvc\Bootstrap
+    
+    - Moved view initialization to Application\Module
+      - combined view initialization and view listener registration into a single
+        event listener
+
+commit 49250443eace3dda6deaee01f09e332ed1aacce9
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Oct 14 12:45:52 2011 -0700
+
+    Update ZF2 submodule
+
+commit a7f22ba984ddda1d8d01ee027fa76b73b1074407
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Fri Oct 14 12:44:05 2011 -0500
+
+    Updates and cleanup
+    
+    - Routing:
+      - Use TreeRouteStack instead of SimpleRouteStack
+      - Do not pull router from locator; simply instantiate
+      - Config object can now be passed directly to addRoutes
+    - Bootstrap:
+      - Accept ModuleManager as sole constructor argument, and pull merged
+        configuration from it
+    - index.php:
+      - Do not use object notation for accessing config values; use array
+        notation. Allows flexibility in how application configuration is
+        returned
+
+commit 25f44b51e55863f37d225614c5d725a6a437d368
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Oct 13 13:31:39 2011 -0700
+
+    Remove unnecessary class imports
+
+commit f751c75e15f76d81180bb80c3f9a81b4009eb802
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Oct 13 13:18:47 2011 -0700
+
+    Module class getConfig() method does not need to be static
+
+commit ed3c4b00dd34314171bac254ca3176d44ae32f00
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Oct 13 13:12:03 2011 -0700
+
+    Updated zf2 submodule and module manager option key
+    
+    - s/enable_self_installation/enable_auto_installation
+
+commit 27b7fadcc885ac4c0ece6db351e6ad910587f1a4
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Tue Oct 11 21:37:41 2011 -0500
+
+    Use addRoutes() instead of manually creating routes in a loop
+
+commit cb2d2b34159a847e2340b480af76cab5e0b74f43
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Oct 10 14:59:06 2011 -0700
+
+    Update ZF2 submodule
+
+commit d60fa20c5b775f3e02542cb861c1fa9a862096ae
+Author: Matt Cockayne <matt@zucchi.co.uk>
+Date:   Mon Oct 10 22:03:57 2011 +0100
+
+    added module config options for dependency and installation
+
+commit 1380ef470cde41f1037932cbe6985083b125fa76
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Oct 10 10:29:57 2011 -0700
+
+    More verbose import alias
+    
+    - Zend\Di\Configuration as DiConfiguration; it may have been ambiguous with
+    Config also being an imported class.
+
+commit 4e86aaa3691ef3e38dc2dcbcc8429ab57cb3bf7d
+Author: Evan Coury <me@evancoury.com>
+Date:   Mon Oct 10 10:25:51 2011 -0700
+
+    Update zf2 submoudle and Di configuration
+    
+    - Per updates to zf2 master, no need to explicitly disable annotations in the
+    runtime configuration for DI
+
+commit e5ebb1f4a4affc00c746ddec566ccc257d1f5b6d
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Oct 7 13:17:14 2011 -0700
+
+    Update for new Zend\Di and Zend\Code stuff
+    
+    - Change ZF2 submodule to use git.zendframework.com to keep up to date better
+    - Change bootstrapping and Di config strategy slightly to account for Ralph's
+    Zend\Di and Zend\Code changes
+
+commit a56332db5fa30d7c2b4ceb10290317a6ec1eb464
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Oct 6 12:09:25 2011 -0700
+
+    Update ZF2 submodule
+
+commit aa568254886a3adf2ae57ee3d2df7d41a7977572
+Author: Evan Coury <me@evancoury.com>
+Date:   Wed Oct 5 10:48:41 2011 -0700
+
+    Update ZF2 submoudle to latest master
+
+commit 49440e70a33225e071345bf53d8a7471d3997670
+Author: Evan Coury <me@evancoury.com>
+Date:   Sun Oct 2 07:07:01 2011 -0700
+
+    More verybose name for module manager options in config and updated URL helper with Matthew's latest
+
+commit 52a740bc361ebcec6f543c295ad22d4dad39d06d
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Sep 30 21:22:27 2011 -0700
+
+    Update to use new view convenience API
+
+commit 1b77747be936e0f1194e602558c7ccba038e1daa
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Sep 30 07:54:27 2011 -0700
+
+    Add newline to README.md for markdown list
+
+commit 5209e9a7c0cfc2663c0316327e678f1c9d5d0387
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Sep 30 07:47:16 2011 -0700
+
+    Update readme with more information, clone instructions, and git submodule info
+
+commit 68f5e544b93f4bd5cc0bb43c7ff8dd3ccd6f190e
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Sep 30 07:13:49 2011 -0700
+
+    Add .gitignore to ignore user-added modules
+    
+    The idea is that users and developers can have additional modules installed in
+    the modules directory for testing without them accidentally getting
+    added/committed to the skeleton project. This makes it so that to add a new
+    module to the repository under modules/, you'll need to explicitly add it to the
+    modules/.gitignore.
+
+commit bd3d7f7541f51df3906e7a5d3d66b1abc797e996
+Author: Evan Coury <me@evancoury.com>
+Date:   Fri Sep 30 05:22:11 2011 -0700
+
+    Small view tweaks, gitignore update, and error phtml path
+    
+    - error.phtml changed to error/index.phtml
+    - index view using &raquo;
+    - add data/cache/.gitignore for merged config caching default path
+
+commit f8a26075e9ee566a933125f76e73208fffd775a2
+Author: Evan Coury <me@evancoury.com>
+Date:   Thu Sep 29 20:18:37 2011 -0700
+
+    Initial skeleton in place with ZF2 submodule pointed at current master
+
+commit 96c5e83e41ccdf6d1b4a712bbf4e4f380a2a6a42
+Author: Matthew Weier O'Phinney <matthew@zend.com>
+Date:   Thu Sep 29 16:13:37 2011 -0500
+
+    Added README.md
