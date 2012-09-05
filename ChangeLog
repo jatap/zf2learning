@@ -1,3 +1,22 @@
+commit b90078552e21f93104836b6622c319ce6966e93c
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 08:18:44 2012 +0200
+
+    - Fixed Doctrine ORM Module .gitignore.
+
+commit 64899d59fa493ea5358f46bcfb5084b96ddbbec8
+Merge: cf35ba7 c6b9089
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 08:16:33 2012 +0200
+
+    - Merge branch 'release-1.1' into develop
+
+commit c6b9089218d55bc0040968687addbc901ad3f13e
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 08:15:46 2012 +0200
+
+    - Bumped version to number 1.1.
+
 commit cf35ba7bfd9fc444660a1a351c3ef969d5fc3e54
 Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
 Date:   Wed Sep 5 08:14:46 2012 +0200
