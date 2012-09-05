@@ -4,11 +4,7 @@
     
     
 # Branches  
-    
-This project is been sync working with [Tuguu Mobile](https://github.com/Tuguusl/Tuguu-Mobile-v2) and this issue marks git branching logic in both projects.     
-  
-Here, working implementation branches will be prefixed with **cms-feature-XXX**, *master* branch has no effect over deployment and still coexists both main versions, *cms* to production sites and *cms-2.0* as a pending merge work (coordinate with *Martín Díaz*).
-    
+       
    
 ## album  
    
