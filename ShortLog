@@ -211,7 +211,7 @@ Intiilapa (1):
 Jan Pieper (1):
       [zendframework/ZendSkeletonApplication#67] fixed path to index.phtml (was introduced by: 87bd76e8)
 
-Julio Antúnez Tarín (22):
+Julio Antúnez Tarín (25):
       - Testing Doctrine 2.3.
       - Tested Proxy Pattern.
       - Added test data and create Stdlib Library.
@@ -234,6 +234,9 @@ Julio Antúnez Tarín (22):
       - Merge branch 'develop' of /Users/julioantuneztarin/Git/zf2learning into develop
       - Updated database name.     - Fixed .gitignore strategy.
       - Excluded Doctrine from .gitignore.
+      - Bumped version to number 1.1.
+      - Merge branch 'release-1.1' into develop
+      - Fixed Doctrine ORM Module .gitignore.
 
 Julio Antúnez Tarín (2):
       - Updating README.md
