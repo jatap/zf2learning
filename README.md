@@ -32,4 +32,4 @@ Fixes over production.
    
    
 ## Author
-TuguuCMS is written by [Julio Antúnez Tarín](http://twitter.com/jatap "Julio Antúnez Tarín").
+This code is written by [Julio Antúnez Tarín](http://twitter.com/jatap "Julio Antúnez Tarín").
