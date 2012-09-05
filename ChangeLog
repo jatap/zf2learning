@@ -1,0 +1,110 @@
+commit fe36c10c47f1d01452b0a7f11977486279cf296d
+Merge: 603d4ce 70243a2
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:57:19 2012 +0200
+
+    Merge branch 'develop' of github.com:jatap/zf2learning into develop
+    
+    Conflicts:
+    	README.md
+
+commit 603d4ce03b61553c5ccc49cf21f72c76e09fcf75
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:55:00 2012 +0200
+
+    - Fixing README.md.
+
+commit 19e622871162777693bed77059b966a6c8042254
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:50:31 2012 +0200
+
+    - Updating README.md.
+
+commit 70243a242ae656aca35be22cf13fe5938de4f1d1
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 06:47:09 2012 +0300
+
+    -
+
+commit f9da487721366700627b752d3f859907962108ec
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 06:46:18 2012 +0300
+
+    - Updating README.md
+
+commit f152b87a473a575885d956afa9d1b9b1c518d44a
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:16:47 2012 +0200
+
+    - Fixing .gitignore.
+
+commit 4d9e979d77bf0a8fd444079c69a1efca2b034d06
+Merge: 0f97e5b 5687184
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:12:23 2012 +0200
+
+    Merge branch 'feature-cleaning-issues' into develop
+    
+    Conflicts:
+    	autoload_classmap.php
+
+commit 0f97e5bf864682f2d72d90111d718577260b20e8
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:10:59 2012 +0200
+
+    - Regenerated classmap file.
+
+commit 568718479025ea524dc474c490093a76592d4902
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 05:08:19 2012 +0200
+
+    - Moved Album to new branch.
+
+commit 7555688023cee15fd09468c0dc4329cf3f9ab72b
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 04:59:16 2012 +0200
+
+    - Fixing .gitignore.
+
+commit 41eb2752fc506131b4a4737dac76538bc801e4ed
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 04:57:25 2012 +0200
+
+    - Deleted old composer.json.
+
+commit b37442977ad3ca9bd2e7a572cc9c8c6cc6fd2ecb
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 04:51:12 2012 +0200
+
+    - Removed Stdlib Library.
+    - Refactorized .gitignore.
+
+commit fd8db188ba75617ad0de4a29abef22043dd49324
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 03:27:03 2012 +0200
+
+    - Minor fixes.
+
+commit 66457ca47d634b622248acf47660264f42793e97
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 03:25:44 2012 +0200
+
+    - Minor fixes.
+
+commit d5f2bcc4d08e66b2609b810d9ebb40894dc3164d
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 5 01:38:34 2012 +0200
+
+    - Added test data and create Stdlib Library.
+
+commit 1e3b5814499bedde90610b64f05f7ca3e02290b7
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Sun Sep 2 06:12:52 2012 +0200
+
+    - Tested Proxy Pattern.
+
+commit 8ed258665e9ed7070e1337bcf2486873e3f69392
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Thu Aug 30 11:41:41 2012 +0200
+
+    - Testing Doctrine 2.3.
