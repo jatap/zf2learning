@@ -1,33 +1,39 @@
-ZendSkeletonApplication
-=======================
+# Description
 
-Introduction
-------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
-
-
-Installation
-------------
-
-Using Composer (recommended)
-----------------------------
-The recommended way to get a working copy of this project is to clone the repository
-and use composer to install dependencies:
-
-    cd my/project/dir
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git
-    cd ZendSkeletonApplication
-    php composer.phar install
-
-Using Git submodules
---------------------
-Alternatively, you can install using native git submodules:
-
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
-
-Virtual Host
-------------
-Afterwards, set up a virtual host to point to the public/ directory of the
-project and you should be ready to go!
+**Zend Framework 2 Learning** is a personal repository used while testing new [Zend Framework 2.0 Release Candidate](http://framework.zend.com/ "ZF 2") features.
+    
+    
+# Branches  
+    
+This project is been sync working with [Tuguu Mobile](https://github.com/Tuguusl/Tuguu-Mobile-v2) and this issue marks git branching logic in both projects.     
+  
+Here, working implementation branches will be prefixed with **cms-feature-XXX**, *master* branch has no effect over deployment and still coexists both main versions, *cms* to production sites and *cms-2.0* as a pending merge work (coordinate with *Martín Díaz*).
+    
+   
+## album  
+   
+Zend Framework 2 Quick Guide Doctrine based.  
+    
+## develop 
+   
+Develop state implementation.  
+      
+## master  
+    
+Production state implementation.  
+    
+## feature-XXX  
+   
+Working implementations.  
+    
+## release-XXX  
+   
+Release information.    
+   
+## hoxfix-XXX  
+  
+Fixes over production.  
+   
+   
+## Author
+TuguuCMS is written by [Julio Antúnez Tarín](http://twitter.com/jatap "Julio Antúnez Tarín").
